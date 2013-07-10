@@ -1,0 +1,757 @@
+/* 
+   CSS 
+   @author: Alex Mark
+   @date: 5/22/13
+   
+*/
+
+body {
+	font-family:'Merriweather Sans', sans-serif;
+	background: #F5F5F5;
+	font-size: 12px;
+	line-height: 1.4em;
+	overflow-y: scroll;
+}
+
+/******************/
+/* Type */
+/******************/
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.5em;
+    color: #4C4C4E;
+    margin-bottom: 1em;
+    line-height: 1.3em;
+    font-weight: lighter;
+}
+
+h1 span {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #8D172F;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    color: #4C4C4E;
+    margin-bottom: 1em;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #4C4C4E;
+    font-weight: lighter;
+}
+
+h3 span {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #8D172F;
+    font-weight: lighter;
+}
+
+h4 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #8D172F;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    color: #4C4C4E;
+}
+
+p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.1em;
+    line-height: 2em;
+    font-weight: lighter;
+    color: #4C4C4E;
+}
+
+a {
+  color: #8D172F;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+a:hover {
+	color: gray;
+}
+/*
+a:visited {
+  color: #8D172F;
+}
+*/
+
+br {
+  line-height: 3em;
+}
+
+/******************/
+/* Header */
+/******************/
+
+#header {
+	background: #D4D4D4;
+	position: fixed;
+	height: 37px;
+	width: 100%;
+  z-index: 999;
+}
+
+#social {
+	position: absolute;
+	float: right;
+	width: 200px;
+	right: 10px;
+}
+
+#nav {
+	position: absolute;
+	float: right;
+	right: 26em;
+	padding-top: 0.8em;
+}
+
+#nav ul {
+
+}
+
+#nav li {
+	display: inline;
+	padding: 0 30px 0 0;
+}
+
+#nav a {
+	color: #4C4C4E;
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 1em;
+	padding: 0 0 11px 0;
+}
+
+/*#nav a:hover {
+	color: #8D172F;
+}*/
+
+#nav a.focus  {
+	color: #4C4C4E;
+	border-bottom: 1px solid #4C4C4E;
+}
+
+/******************/
+/* Media */
+/******************/
+
+#logo {
+	position: absolute;
+	padding-top: 10px;
+	cursor: pointer;
+	left: 100px;
+  opacity: 0.7;
+}
+
+#logo:hover {
+  opacity: 1;
+}
+
+#logo img {
+	height: 1.5em;
+	width: auto;
+}
+
+/******************/
+/* Social Media Buttons */
+/*Special thanks to TimHuisman https://github.com/timhuisman/round-social-media-buttons.git*/
+/******************/
+
+.social-btn {
+  background-color: #e3e9ec;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.25)), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );
+  content: '';
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin: 2px;
+  z-index: 400; }
+  .social-btn:before, .social-btn:after {
+    content: "";
+    display: block;
+    position: relative; }
+  .social-btn:before {
+    border: solid 2px #D4D4D4;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    top: -2px;
+    left: -2px;
+    z-index: 200; }
+    .social-btn:before:hover, .social-btn:before:focus {
+      background-color: white; }
+    .social-btn:before:active {
+      background-color: #D4D4D4; }
+  .social-btn:after {
+    background: url("../images/sprite-rsmb.png") no-repeat;
+    border: solid 2px #c5d1d7;
+    -webkit-box-shadow: inset 0px 0px 0px 0px white;
+    box-shadow: inset 0px 0px 0px 0px white;
+    width: 28px;
+    height: 28px;
+    top: -36px;
+    z-index: 600; }
+  .social-btn.rounded, .social-btn.rounded:after {
+    -webkit-border-radius: 8px;
+    border-radius: 8px; }
+  .social-btn.rounded:before {
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+
+.social-btn, .social-btn:before {
+  width: 32px;
+  height: 32px; }
+
+.social-btn, .social-btn:before, .social-btn:after {
+  -webkit-border-radius: 18px;
+  border-radius: 18px; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
+  .social-btn:after {
+    background: url("../images/sprite-rsmb-x2.png") no-repeat;
+    -webkit-background-size: 56px;
+    -moz-background-size: 56px;
+    background-size: 56px; } }
+
+.facebook {
+  background-color: #eeeeee; }
+  .facebook:after {
+    background-position: 0 0;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .facebook:hover {
+    background-color: white; }
+  .facebook:active {
+    background-color: #d4d4d4; }
+  .facebook.alt:after {
+    background-position: -28px -84px; }
+
+.github {
+  background-color: #eeeeee; }
+  .github:after {
+    background-position: -28px -56px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .github:hover {
+    background-color: white; }
+  .github:active {
+    background-color: #d4d4d4; }
+  .github.alt:after {
+    background-position: 0 -112px; }
+  .github.alt2:after {
+    background-position: 0 -84px; }
+
+.gplus {
+  background-color: #eeeeee; }
+  .gplus:after {
+    background-position: 0 -140px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .gplus:hover {
+    background-color: white; }
+  .gplus:active {
+    background-color: #d4d4d4; }
+
+.linkedin {
+  background-color: #eeeeee; }
+  .linkedin:after {
+    background-position: 0 -196px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .linkedin:hover {
+    background-color: white; }
+  .linkedin:active {
+    background-color: #d4d4d4; }
+
+.mail {
+  background-color: #eeeeee; }
+  .mail:after {
+    background-position: 0 -224px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .mail:hover {
+    background-color: white; }
+  .mail:active {
+    background-color: #d4d4d4; }
+
+.rss {
+  background-color: #eeeeee; }
+  .rss:after {
+    background-position: 0 -280px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .rss:hover {
+    background-color: white; }
+  .rss:active {
+    background-color: #d4d4d4; }
+
+.wordpress {
+  background-color: #eeeeee; }
+  .wordpress:after {
+    background-position: -28px -196px;
+    border-color: #d4d4d4;
+    -webkit-box-shadow: inset 0px 1px 2px 0px white;
+    box-shadow: inset 0px 1px 2px 0px white; }
+  .wordpress:hover {
+    background-color: white; }
+  .wordpress:active {
+    background-color: #d4d4d4; }
+
+.wordpress-alt {
+  background-color: #454342; }
+  .wordpress-alt:after {
+    background-position: -28px -224px;
+    border-color: #2b2a29;
+    -webkit-box-shadow: inset 0px 1px 2px 0px #868281;
+    box-shadow: inset 0px 1px 2px 0px #868281; }
+  .wordpress-alt:hover {
+    background-color: #5f5c5b; }
+  .wordpress-alt:active {
+    background-color: #2b2a29; }
+
+/******************/
+/* Homepage Main */
+/******************/
+
+#main {
+	width: 65%;
+	height: auto;
+	padding: 7em 0 0 8em;
+  margin-bottom: 10em;
+}
+
+#main .text-wrap {
+	width: 91%;
+	height: auto;
+}
+
+.section-info {
+  width: 50%;
+  padding-right:1em;
+  position: relative;
+  float: left;
+}
+
+#goldengate {
+	position: relative; 
+	float: right;
+	left: 3em;
+}
+
+.inside-text {
+	width: 106% !important;
+} 
+
+/******************/
+/* Resume */
+/******************/
+
+#wrapper {
+	border: 1px solid rgba(0,0,0,0.18);
+	margin-bottom: 10em;
+	border-radius: 5px;
+	background-color: #FAFAFA;
+}
+
+.rbox {
+	padding: 20px;
+	z-index: 999;
+}
+
+.rbox h3 {
+	font-size: 1.0em;
+	font-weight: lighter;
+	float: left;
+  margin-top: 0.2em;
+}
+
+.rbox h4 {
+	padding-left: 9em;
+}
+
+.rbox h5 {
+	padding-left: 10.6em;
+}
+
+.rbox p {
+	padding-top: 2em;
+    padding-left: 10.6em;
+}
+
+/******************/
+/* Homepage&Resume Sidebar */
+/******************/
+
+#side{
+	position: fixed;
+	width: 22%;
+	height: 100%;
+	right: 3em;
+	top: 9em;
+}
+
+#side .profile {
+	position: relative;
+	left: 7em;
+	width: 12em;
+	height: 12em;
+  border: 1px solid rgba(0,0,0,0.18);
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	/*background: url(images/profile.jpg) no-repeat;
+	box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);*/
+	}
+
+.subprofile {
+  padding-left: 8em; 
+}
+
+#side .subprofile h3 {
+  position: relative;
+}
+
+#side::before {
+	content:"";
+	position: absolute;
+	top: -5%;
+	bottom: 20%;
+	left: -1px;
+	width: 1px;
+	background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(227,224,216,0)), color-stop(20%, #e3e0d8), color-stop(80%, #e3e0d8), color-stop(100%, rgba(227,224,216,0)));
+	background: -webkit-linear-gradient(top, rgba(227,224,216,0) 0%,#e3e0d8 20%,#e3e0d8 80%,rgba(227,224,216,0) 100%);
+	background: -moz-linear-gradient(top, rgba(227,224,216,0) 0%,#e3e0d8 20%,#e3e0d8 80%,rgba(227,224,216,0) 100%);
+	background: -o-linear-gradient(top, rgba(227,224,216,0) 0%,#e3e0d8 20%,#e3e0d8 80%,rgba(227,224,216,0) 100%);
+	background: linear-gradient(top, rgba(227,224,216,0) 0%,#e3e0d8 20%,#e3e0d8 80%,rgba(227,224,216,0) 100%);
+}
+
+#side .button h3{
+	position: relative;
+	left: 7em;
+}
+
+#side .button {
+	font-family: 'Merriweather Sans', sans-serif;
+	position: absolute;
+	background: #8D172F;
+	border-radius: 0.5em;
+	padding: 0 3em;
+	text-decoration: none;
+	border: 1px solid rgba(0,0,0,0.18);
+  top: 1em;
+	left: 4.4em;
+	cursor: pointer;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+  opacity: 0.8;
+  font-weight: lighter;
+}
+
+#side .button:hover {
+  opacity: 0.7;
+}
+
+.info h5{
+  position: relative;
+  top: 6em;
+  left: 4.6em;
+}
+
+.info h3{
+  position: relative;
+  top: 6em;
+  left: 4.3em;
+}
+
+#side li{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: #4C4C4E;
+  left: 5.2em;
+  top: 8em;
+  position:relative;
+}
+
+#side a {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #4C4C4E;
+}
+
+#bio,#hobies,#news {
+  line-height: 2em;
+} 
+
+#bio,#hobbies,#news:hover {
+  cursor: pointer;
+}
+
+.scroll {
+  font-weight: normal;
+  font-size: 1.3em;
+  color: #808080;
+}
+
+/******************/
+/* Contact */
+/******************/
+
+#contact-main {
+	position: fixed;
+	width: 55%;
+	height: auto;
+	background: #FAFAFA;
+	border: 1px solid rgba(0,0,0,0.18);
+	border-radius: 5px;
+	left: 12em;
+	top: 9em;
+}
+
+#gmail {
+  opacity: 0.6;
+	width: 25%;
+	float: left;
+	padding-left: 12em;
+  padding-bottom: 1em;
+	float: left;
+	position: relative;
+}
+
+form {
+  padding: 3em 0 2em 5em;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+textarea {
+  width: 50em;
+  height: 15em;
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 5px;
+  margin-top: 1em;
+}
+
+input {
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 5px;
+  height: 1.8em;
+  width: 13em;
+  margin-right: 2em;
+}
+
+.field {
+  float: left;
+}
+
+input[type='submit'] {
+  width: 10em;
+  height: 2em;
+  font-family:'Merriweather Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1.1em;
+  background: #8D172F;
+  margin-top: 1em;
+  color: white;
+  opacity: 0.8;
+}
+
+.button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/******************/
+/* Portfolio */
+/******************/
+
+#portfolio-main {
+  padding: 7em 0 0 8em;
+}
+
+#portfolio-main .wrap {
+  width: 80%;
+  height: auto;
+}
+
+#portfolio-content ul {
+  width:100%;
+  height:auto;
+}
+
+#portfolio-content li {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 2em;
+  overflow: hidden;
+  margin: 0;
+}
+
+.project-item {
+  float:left;
+  padding-right: 5em;
+  padding-bottom: 4em;
+}
+
+.project-box {
+  cursor: pointer;
+  float: left;
+  margin: 0px;
+}
+
+.project-box h3 {
+  cursor: pointer;
+  line-height: 12px;
+  margin: 0;
+}
+
+.project-box h3 a {
+  display: inline-block;
+  background: url(../images/label.png) top left no-repeat;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 46px;
+  font-weight: lighter;
+  padding: 0em 2em 1em 1em;
+  position: absolute;
+  color: white;
+  margin-left: -.8em;
+  margin-top: 10.6em;
+}
+
+.project-box h3 a:hover {
+  background: url(../images/label-alt.png) top left no-repeat;
+}
+
+.project-box a img {
+  width: 27em;
+  height: 18em;
+  border:1px solid rgba(0,0,0,0.18);
+}
+
+/******************/
+/* ARL Portfolio Page */
+/******************/
+
+#portfolio-main {
+  margin-bottom: 17em;
+}
+
+#portfolio-main p {
+  font-size:1.1em;
+}
+
+.text-box {
+  width: 30em;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 5em;
+  margin-right: 4em;
+}
+
+.mainimage-box {
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 5px;
+  position: relative;
+  float: left;
+  background-color: #FAFAFA;
+  margin-bottom: 4em;
+  margin-right:3.5em;
+}
+
+.mainimage-box img {
+  margin:1.5em;
+  width:25em;
+  height:auto;
+}
+
+.mainimage-box h2 {
+  text-align: center;
+  margin-bottom: 0em;
+  margin-top: 0.5em;	
+  line-height: 2em;
+}
+
+#subsection {
+  position: relative;
+  padding-bottom: 5em;
+}
+
+#subsection li {
+  float: left;
+  width: 28.2em;
+  padding-right: 3.5em;
+}
+
+.image-box {
+  border: 1px solid rgba(0,0,0,0.18);
+  border-radius: 5px;
+  position: relative;
+  background-color: #FAFAFA;
+  margin-bottom: 10em;
+}
+
+.image-box img {
+  margin:1.5em;
+  width:25em;
+  height:auto;
+}
+
+.image-box h2 {
+  text-align:center;
+  margin-bottom: 0em;
+  margin-top: 0.5em;
+}
+
+/******************/
+/* AMKS Portfolio Page */
+/******************/
+
+
+/******************/
+/* Gesalt Portfolio Page */
+/******************/
+
+#skitter {
+	position: absolute; 
+	left: 55em;
+	padding-bottom: 20em;
+}

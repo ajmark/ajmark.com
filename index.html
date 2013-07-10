@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8"/>
+  	<title>Alex Mark</title>
+  	<meta name="author" content="Alex Mark" />
+    <meta name="description" content="Personal website for a current Carnegie Mellon student"/>
+  	<meta name="keywords" content="Alex Mark, Carnegie Mellon, Information Systems, cmu, Alexander Mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, silicon valley, california, pennsylvania, alex, mark, alexander, web design, interaction design, user interface, information architect, information architecture, ajmark, amark"/>
+    <meta name="copyright" content="Alex Mark 2013" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" >
+
+    <!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Stylesheets  -->
+    <link rel='stylesheet' type='text/css' href='css/reset.css' />
+    <link rel='stylesheet' type='text/css' href='css/style.css' />
+
+  </head>
+  
+  <body>
+  	<div id='header' class='homeheader'>
+      <div id='logo' onclick="window.location='index.html'">
+        <img src='images/logofinal.png' alt="logo" />
+      </div>
+      
+      <div id='social'>
+        <a href="https://www.facebook.com/amark92" class="social-btn facebook" target="_blank"></a>
+        <a href="https://plus.google.com/107031254155320403996" class="social-btn gplus" target="_blank"></a>
+        <a href="https://github.com/ajmark" class="social-btn github" target="_blank"></a>
+        <a href="http://www.linkedin.com/pub/alexander-mark/58/9b/605" class="social-btn linkedin" target="_blank"></a>
+        <a href="http://ajmarkportfolio.wordpress.com/" class="social-btn wordpress" target="_blank"></a>
+      </div>
+
+      <div id='nav'>
+        <ul>
+          <li>
+            <a class="focus" href="#">Home</a>
+          </li>
+          <li>
+            <a class="text" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="text" href="resume.html">Resume</a>
+          </li>
+          <li>
+            <a class="text" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+  	</div>
+
+    <div id='main'>
+      <div class="text-wrap">
+        <h1 class='intro'>
+          Just call me <span>Alex</span>.
+        </h1>
+        <h2 class='text-body'>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</h2>
+        <br>
+        <h1 class='text-body' id="bio-text"><span>Who</span> Am I?</h1>
+				<div class="text-wrap inside-text">
+					<img class='text-body' id='goldengate' src='images/goldengate.png' width='300px'>
+        	<h2 class='text-body'>Aenean posuere, erat quis adipiscing aliquam, est nibh ultricies orci, eget lobortis felis orci ac est. Aenean blandit quam ac magna consequat sodales eu quis nisi. Aenean tellus quam, pellentesque in hendrerit tristique, posuere eu velit. Vivamus nec dolor ipsum, eu vulputate justo. Sed eleifend magna ac nulla sagittis nec commodo lorem tristique. Cras leo massa, facilisis quis elementum ac, interdum sed velit. Curabitur facilisis posuere libero et congue. Curabitur ultrices metus blandit tellus accumsan malesuada. Nam vel felis sit amet neque ornare sollicitudin. Etiam vel nunc sapien. Sed feugiat ante ac felis pulvinar ac tempor enim consectetur </h2>
+				</div> 
+        <br>
+        <h1 class='text-body' id="hobbies-text">My <span>Interests</span>.</h1>
+        <h2 class='text-body'>Aenean posuere, erat quis adipiscing aliquam, est nibh ultricies orci, eget lobortis felis orci ac est. Aenean blandit quam ac magna consequat sodales eu quis nisi. Aenean tellus quam, pellentesque in hendrerit tristique, posuere eu velit. Vivamus nec dolor ipsum, eu vulputate justo. Sed eleifend magna ac nulla sagittis nec commodo lorem tristique. Cras leo massa, facilisis quis elementum ac, interdum sed velit. Curabitur facilisis posuere libero et congue. Curabitur ultrices metus blandit tellus accumsan malesuada. Nam vel felis sit amet neque ornare sollicitudin. Etiam vel nunc sapien. Sed feugiat ante ac felis pulvinar ac tempor enim consectetur</h2>
+      </div>
+      <br>
+      <h1 class='text-body' id='news-text'><span>Things</span> I've Been Up To.</h1>
+      <h2 class='text-body'> Stuff </h2>
+      <br>
+    </div>
+
+    <div id='side' class='homeside'>
+      <img src="images/profile.jpg" class="profile" alt="profile-pic">
+      <br><br>
+      <div class="subprofile">
+        <h3>Alexander J. Mark</h3>
+        <h3>CMU Class of 2015</h3>
+        <h3>Status: Working</h3>
+        <br><br>
+        <h3 class='scroll' id='bio'><span>Who</span> Am I?</h3>
+        <h3 class='scroll' id='hobbies'>My <span>Interests</span>.</h3>
+        <h3 class='scroll' id='news'><span>Things</span> I've Been Up To.</h3>
+      </div>
+    </div>
+
+    <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+	<script> 
+		$(document).ready(function() {
+  			$('.intro').css('display', 'none');
+  			$('.text-body').css('display', 'none');
+  			$('.homeheader').css('display', 'none');
+  			$('.homeside').css('display', 'none');
+
+  			$('.intro').fadeIn(800, function(){
+    			$('.text-body').delay(500).fadeIn(350, function(){
+      				$('.homeheader').fadeIn(350, function(){
+        				$('.homeside').fadeIn(350);
+      				});
+    			});
+  			});
+		});
+	</script>
+  </body>
+</html>
