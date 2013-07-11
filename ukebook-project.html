@@ -16,13 +16,32 @@
     <!-- Stylesheets  -->
     <link rel='stylesheet' type='text/css' href='css/reset.css' />
     <link rel='stylesheet' type='text/css' href='css/style.css' />
-
+		<link type="text/css" href="skitter/css/skitter.styles.css" media="all" rel="stylesheet" />
+		
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
     <script src="js/jquery-1.10.1.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script type='text/javascript' src="js/main.js"></script>
 
+	<script type="text/javascript" src="skitter/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="skitter/js/jquery.skitter.min.js"></script>
+	  
+	<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+			$('.box_skitter_wide').skitter({
+				theme: 'minimalist',
+				numbers_align: 'right',
+				progressbar: false,
+				auto_play: true,
+				dots: true, 
+				preview: true,
+				interval: 5000, 
+				velocity: 0.8,
+			});
+		});
+	</script>
+		
   </head>
   
   <body>
@@ -39,7 +58,7 @@
         <a href="http://ajmarkportfolio.wordpress.com/" class="social-btn wordpress" target="_blank"></a>
       </div>
 
-      <div id ='nav'>
+      <div id='nav'>
         <ul>
           <li>
             <a class="text" href="home.html">Home</a>
@@ -56,6 +75,33 @@
         </ul>
       </div>
     </div> 
-
+		
+		<div id='portfolio-main'>
+			<h1>Visual Booklet | <span>Contemporary Ukulele</span></h1>
+			<br>
+			<div id='skitter-wide'>
+				<div class='box_skitter box_skitter_wide'>
+			    <ul>
+						<li><a href="#fade"><img src="images/spread0.png" class="fade" /></a></li>
+						<li><a href="#fade"><img src="images/spread1.png" class="fade" /></a></li>
+						<li><a href="#fade"><img src="images/spread2.png" class="fade" /></a></li>
+						<li><a href="#fade"><img src="images/spread3.png" class="fade" /></a></li>
+			  	  <li><a href="#fade"><img src="images/spread4.png" class="fade" /></a></li>
+			  	  <li><a href="#fade"><img src="images/spread5.png" class="fade" /></a></li>
+						<li><a href="#fade"><img src="images/spread6.png" class="fade" /></a></li>
+			    </ul>
+				</div>
+				<br>
+			  <div class='text-box'>
+				  <h2>About the Project</h2>
+			  </div>
+			  <div class='text-box'>
+				  <h2>Project Process</h2>
+			  </div>
+				
+			</div>
+		</div>
+		
+		
   </body>
 </html>

@@ -392,9 +392,10 @@
 	height: 400px;
 }
 
-.box_skitter_small {
-	width: 200px;
-	height: 100px;
+.box_skitter_wide {
+	width: 800px;
+	height: 500px;
+	margin-bottom: 3em; 
 }
 
 /* =Default theme

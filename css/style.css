@@ -79,6 +79,10 @@ p {
     color: #4C4C4E;
 }
 
+p span {
+    color: #8D172F;
+}
+
 a {
   color: #8D172F;
   text-decoration: none;
@@ -745,7 +749,19 @@ input[type='submit'] {
 /* AMKS Portfolio Page */
 /******************/
 
+.textbox-wide {
+	width: 37em;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 5em;
+  margin-right: 4em;
+}
 
+.large-link {
+	font-size: 2em;
+	line-height: 1.5em;
+}
 /******************/
 /* Gesalt Portfolio Page */
 /******************/
@@ -754,4 +770,15 @@ input[type='submit'] {
 	position: absolute; 
 	left: 55em;
 	padding-bottom: 20em;
+}
+
+/******************/
+/* Ukebook Portfolio Page */
+/******************/
+
+#skitter-wide { 
+	position: absolute;
+	left: 20em;
+/*	top: 40em;*/
+	padding-bottom: 20em; 
 }
