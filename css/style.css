@@ -41,6 +41,10 @@ h2 {
     font-weight: lighter;
 }
 
+h2 span {
+	color: #8D172F;
+}
+
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1.2em;
@@ -351,7 +355,7 @@ br {
 	width: 65%;
 	height: auto;
 	padding: 7em 0 0 8em;
-  margin-bottom: 10em;
+  margin-bottom: 20em;
 }
 
 #main .text-wrap {
@@ -370,6 +374,17 @@ br {
 	position: relative; 
 	float: right;
 	left: 3em;
+}
+
+.xray {
+  position: relative;
+	float: right;
+	margin-left: 2em;
+	margin-right: 1em;	
+}
+
+.xray {
+  border: 1px solid rgba(0,0,0,0.18);
 }
 
 .inside-text {
