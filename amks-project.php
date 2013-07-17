@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8"/>
+  	<title>Alex Mark</title>
+  	<meta name="author" content="Alex Mark" />
+    <meta name="description" content="Personal website for a current Carnegie Mellon student"/>
+  	<meta name="keywords" content="Alex Mark, Carnegie Mellon, Information Systems, cmu, Alexander Mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, silicon valley, california, pennsylvania, alex, mark, alexander, web design, interaction design, user interface, information architect, information architecture, ajmark, amark"/>
+    <meta name="copyright" content="Alex Mark 2013" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Stylesheets  -->
+    <link rel='stylesheet' type='text/css' href='css/reset.css' />
+    <link rel='stylesheet' type='text/css' href='css/style.css' />
+    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox.css' />
+    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox-buttons.css' />
+    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox-thumbs.css' />
+  </head>
+  
+  <body>
+    <?php include('includes/header.php'); ?>
+
+    <div id='portfolio-main'>
+      <h1>Ruby on Rails Web App | <span>The A &#38; M Karate School </span></h1>
+      <br>
+			<a class='large-link' href='http://amks.herokuapp.com' target='_blank'>The A &amp; M Karate School live application</a> 
+			<p>&lt;-- Follow the link!</p>
+			<br>
+      <div class="textbox-wide">
+        <h2>About the Project</h2>
+        <p> This was a semester long project assigned in my Web Application Design and Development class. Our task was to use Ruby on Rails to create a dynamic web application for a mock karate tournament system. Through this project and this class, I learned how to:<br>1. Model data and translate data models into working databases<br>2. Be familiar with the Model-View-Controller pattern in software architecture<br>3. Understand the importance of test driven development<br>4. Use source code control to manage project development through Git<br>5. Apply principles of user-centered design to the development of software<br>6. Apply all of these skills to build a web-based application 
+        </p>
+      </div>
+      <div class="textbox-wide">
+        <h2>Project Process</h2>
+        <p> The web app was created in five different phases, each having its own focus on aspects of web application development.<br>In <span>phase 1</span> of the project, we focused on creating the data model of the application through an entity-relationship diagram, database design in third normal form, a data dictionary, and use cases.<br><span>Phase 2</span> of the project introduced us to unit testing and the creation of tables for the database.<br><span>Phase 3</span> focused primarily on the views of the application, where we implemented user-centered design techniques to create an easy-to-use interface. We also established CRUD functionality in our application during this phase which allowed the application began to have functional components through the use of controllers.<br>In the following two phases, <span>phase 5</span> &amp; <span>phase 6</span>, we implemented more advanced processes to the application such as authentication, authorization and dashboards. We also revisited aspects of previous phases by adding additional unit tests.
+        </p>
+      </div>
+    </div>
+	
+
+    <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+
+  </body>
+</html>

@@ -111,7 +111,9 @@ br {
 /******************/
 
 #header {
-	background: #D4D4D4;
+	background-color: #E5E5E5;
+	/*D4D4D4*/
+/*	background-image: url(../images/pattern.png);*/
 	position: fixed;
 	height: 37px;
 	width: 100%;
@@ -154,8 +156,8 @@ br {
 }*/
 
 #nav a.focus  {
-	color: #4C4C4E;
-	border-bottom: 1px solid #4C4C4E;
+	color: #8D172F;
+	border-bottom: 1px solid #8D172F;
 }
 
 /******************/
