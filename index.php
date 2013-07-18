@@ -60,7 +60,6 @@
       <div class="subprofile">
         <h3>Alexander J. Mark</h3>
         <h3>CMU Class of 2015</h3>
-        <h3>Status: Working</h3>
         <br><br>
         <h3 class='scroll' id='bio'><span>Who</span> Am I?</h3>
         <h3 class='scroll' id='hobbies'>My <span>Interests</span>.</h3>

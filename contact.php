@@ -23,7 +23,7 @@
     <?php include('includes/header.php'); ?>
 
     <div id='main'>
-      <div class='text-wrap'>
+      <div class='text-wrap larger'>
         <h1>Leave me a <span>Message</span></h1>
         <div id='wrapper'>
           <form action='send_mail.php' method='post'>

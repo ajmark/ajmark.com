@@ -23,7 +23,7 @@
 		<?php include('includes/header.php'); ?>
 
     <div id ='main'>
-      <div class='text-wrap resume'>
+      <div class='text-wrap larger'>
         <h1>Work <span>Experience</span></h1>
         <div id = 'wrapper'>
           <div class='rbox'> 

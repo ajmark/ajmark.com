@@ -130,7 +130,7 @@ br {
 #nav {
 	position: absolute;
 	float: right;
-	right: 32em;
+	right: 30%;
 	padding-top: 1.5em;
 }
 
@@ -168,7 +168,7 @@ br {
 	position: absolute;
 	padding-top: 1.4em;
 	cursor: pointer;
-	left: 12em;
+	left: 11%;
   opacity: 0.7;
 }
 
@@ -434,7 +434,7 @@ br {
 	font-size: 1em;
 }
 
-.resume {
+.larger {
 	width: 114% !important;
 }
 
@@ -446,7 +446,7 @@ br {
 	position: fixed;
 	width: 30%;
 	height: 100%;
-	right: 3em;
+	right: 2em;
 	top: 10em;
 }
 
