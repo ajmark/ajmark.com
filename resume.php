@@ -23,7 +23,7 @@
 		<?php include('includes/header.php'); ?>
 
     <div id ='main'>
-      <div class='text-wrap'>
+      <div class='text-wrap resume'>
         <h1>Work <span>Experience</span></h1>
         <div id = 'wrapper'>
           <div class='rbox'> 
@@ -53,7 +53,7 @@
             <h4>Stanford's Center for Brain Science Research</h4>
             <h5>Software Development Assistant | Palo Alto, CA</h5>
             <p>Debugged brain imaging software user interface in Java programming language<br>
-              Increased lab efficiency through improvements of software usability/p>
+              Increased lab efficiency through improvements of software usability</p>
           </div>
         </div>
         <h1>Community <span>Involvement</span></h1>

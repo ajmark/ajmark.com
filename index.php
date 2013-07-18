@@ -31,7 +31,7 @@
         <br>
         <h1 class='text-body' id="bio-text"><span>Who</span> Am I?</h1>
 				<div class="text-wrap inside-text text-body">
-					<img id='goldengate' src='images/goldengate.png' width='300px'>
+					<img id='goldengate' src='images/goldengate.png' width='200px'>
         	<h2 class='text-body'>I'm a Bay Area native. Growing up on the San Francisco Peninsula, I have had a lot of exposure to the Silicoln Valley and all of the opportunities it has to offer. However, moving to Pittsburgh for school was the best decisions I could have ever made. This city has given me a new perspective on how I view the world and how I can apply myself. It has helped me appreciate everything I have in life and all of my experiences.</h2>
 				</div> 
         <br>
