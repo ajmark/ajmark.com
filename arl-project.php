@@ -22,7 +22,7 @@
   <body>
     <?php include('includes/header.php'); ?>
 
-    <div id='portfolio-main'>
+    <div id='portfolio-page'>
       <h1> Website Redesign | <span> The Animal Rescue League of Pittsburgh</span></h1>
       <br>
       <div class="text-box">

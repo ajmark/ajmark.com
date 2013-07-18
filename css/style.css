@@ -111,13 +111,15 @@ br {
 /******************/
 
 #header {
-	background-color: #E5E5E5;
-	/*D4D4D4*/
-/*	background-image: url(../images/pattern.png);*/
+/*	background-color: #E5E5E5;*/
 	position: fixed;
 	height: 50px;
 	width: 100%;
   z-index: 999;
+}
+
+#header.alt {
+	position: relative;
 }
 
 #social {
@@ -130,7 +132,7 @@ br {
 #nav {
 	position: absolute;
 	float: right;
-	right: 30%;
+	right: 10%;
 	padding-top: 1.5em;
 }
 
@@ -168,7 +170,7 @@ br {
 	position: absolute;
 	padding-top: 1.4em;
 	cursor: pointer;
-	left: 12%;
+	left: 3%;
   opacity: 0.7;
 }
 
@@ -354,9 +356,9 @@ br {
 /******************/
 
 #main {
-	width: 50%;
+	width: 55%;
 	height: auto;
-	padding: 10em 0 0 12em;
+	padding: 8em 0 0 12em;
   margin-bottom: 20em;
 }
 
@@ -389,9 +391,11 @@ br {
   border: 1px solid rgba(0,0,0,0.18);
 }
 
+/*
 .inside-text {
 	width: 106% !important;
 } 
+*/
 
 /******************/
 /* Resume */
@@ -435,7 +439,7 @@ br {
 }
 
 .larger {
-	width: 114% !important;
+	width: 100% !important;
 }
 
 /******************/
@@ -447,7 +451,7 @@ br {
 	width: 30%;
 	height: 100%;
 	right: 2em;
-	top: 10em;
+	top: 8em;
 }
 
 #side .profile {
@@ -644,26 +648,23 @@ input[type='submit'] {
 /******************/
 
 #portfolio-main {
-  padding: 10em 0 0 12em;
+  position: relative;
+	float: left; 
+	margin-bottom: 5em;
 }
 
 #portfolio-main .wrap {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolio-page {
+  padding: 4em 0 0 6em;
+}
+
+#portfolio-page .wrap {
   width: 80%;
   height: auto;
-}
-
-#portfolio-content ul {
-  width:100%;
-  height:auto;
-}
-
-#portfolio-content li {
-  display: block;
-  float: left;
-  list-style: none;
-  padding: 2em;
-  overflow: hidden;
-  margin: 0;
 }
 
 .project-item {
@@ -712,11 +713,11 @@ input[type='submit'] {
 /* ARL Portfolio Page */
 /******************/
 
-#portfolio-main {
+#portfolio-page {
   margin-bottom: 17em;
 }
 
-#portfolio-main p {
+#portfolio-page p {
   font-size:1.1em;
 }
 

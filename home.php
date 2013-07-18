@@ -28,8 +28,64 @@
         <h1 class='intro'>
           Just call me <span>Alex</span>.
         </h1>
-        <h2 class='text-body'>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction. I aspire to work in the UX field through the use of my skills as a software developer and my affinity for design and interfaces. Explore my website and let me introduce myself. </h2>
+        <h2 class='text-body'>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction. I aspire to work in the UX field through the use of my skills as a software developer and my affinity for design and interfaces. Check out some of my work below. </h2>
         <br>
+			</div>
+			<div id='#portfolio-main'>
+        <ul id="items">
+          <li class="project-item">
+            <div class="project-box">
+              <h3>
+                <a class='text2' href="amks-project.php">Ruby on Rails Web App</a>
+              </h3>
+              <a href="amks-project.php">
+                <img src="images/amkarateschool.png">
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-box">
+              <h3>
+                <a class='text2'href="arl-project.php">Website Redesign</a>
+              </h3>
+              <a href="arl-project.php">
+                <img src="images/arl-thumbnail.png" alt="thumbnail">
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-box">
+              <h3>
+                <a class='text2' href="ukebook-project.php">Visual Booklet</a>
+              </h3>
+              <a href="ukebook-project.php">
+                <img src="images/ukebook-thumbnail.png" alt="thumbnail">
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-box">
+              <h3>
+                <a class='text2' href="typespecimen-project.php">Typography</a>
+              </h3>
+              <a href="typespecimen-project.php">
+                <img src="images/typespecimen-thumbnail.png">
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-box">
+              <h3>
+                <a class='text2' href="gestalt-project.php">Form &#38; Composition</a>
+              </h3>
+              <a href="gestalt-project.php">
+                <img src="images/gestalt-thumbnail.png" alt="thumbnail">
+              </a>
+            </div>
+          </li>
+        </ul>
+			</div>
+			
         <h1 class='text-body' id="bio-text"><span>Who</span> Am I?</h1>
 				<div class="text-wrap inside-text">
 					<img id='goldengate' src='images/goldengate.png' width='200px'>
@@ -53,7 +109,6 @@
         <br>
 				
 		  </div>
-    </div>
 
     <div id='side' class='homeside'>
       <img src="images/profile.jpg" class="profile" alt="profile-pic">

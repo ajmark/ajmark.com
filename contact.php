@@ -50,10 +50,8 @@
     </div>
 
     <div id='side'>
-      <img src="images/gmail.png" id='gmail'>
-      <br>
-      <div class="subprofile">
-        <h3>ajmark@andrew.cmu.edu</h3>
+      <div class="info">
+        <h5>ajmark@andrew.cmu.edu</h5>
         <br>
         <h3>Talk to me about sports, music, technology or just to say hi!</h3>
       </div>

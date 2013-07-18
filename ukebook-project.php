@@ -47,7 +47,7 @@
   <body>
 		<?php include('includes/header.php'); ?>
 		
-		<div id='portfolio-main'>
+		<div id='portfolio-page'>
 			<h1>Visual Booklet | <span>Contemporary Ukulele</span></h1>
 			<br>
 			<div id='skitter-wide'>

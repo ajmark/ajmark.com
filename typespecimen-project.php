@@ -28,7 +28,7 @@
   <body>
 		<?php include('includes/header.php'); ?>
 
-    <div id='portfolio-main'>
+    <div id='portfolio-page'>
       <h1>Typography | <span>Avenir Type Specimen</span></h1>
       <br>
 
@@ -62,6 +62,7 @@
       <h2>Third Iteration</h2>
       <img src="images/typeSpecimen4.png" style="width: 25em;">
     </div>
+	 </div>
 
   </body>
 </html>

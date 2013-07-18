@@ -24,7 +24,7 @@
   <body>
     <?php include('includes/header.php'); ?>
 
-    <div id='portfolio-main'>
+    <div id='portfolio-page'>
       <h1>Ruby on Rails Web App | <span>The A &#38; M Karate School </span></h1>
       <br>
 			<a class='large-link' href='http://amks.herokuapp.com' target='_blank'>The A &amp; M Karate School live application</a> 

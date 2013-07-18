@@ -47,7 +47,7 @@
   <body>
     <?php include('includes/header.php'); ?> 
 
-    <div id='portfolio-main'>
+    <div id='portfolio-page'>
       <h1>Form &#38; Composition | <span>Gestalt Principles</span></h1>
       <br>
 
