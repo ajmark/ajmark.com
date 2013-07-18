@@ -50,11 +50,13 @@
     </div>
 
     <div id='side'>
-      <div class="info">
+			<img src="images/profile.jpg" class="profile" alt="profile-pic">
+			<br><br>
+			<div class="subprofile">
         <h5>ajmark@andrew.cmu.edu</h5>
         <br>
         <h3>Talk to me about sports, music, technology or just to say hi!</h3>
-      </div>
+			</div>
     </div>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>

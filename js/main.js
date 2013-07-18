@@ -45,6 +45,12 @@ function hoverActions(){
 
 function home_scrollToSection(){
 	
+	$('body').on('click', '#portfolio', function(){
+	    $('html, body').animate({
+	        scrollTop: $("#portfolio-main").offset().top - 20
+	    }, 400);
+	});
+	
 	$('body').on('click', '#hobbies', function(){
 	    $('html, body').animate({
 	        scrollTop: $("#hobbies-text").offset().top - 20
@@ -60,6 +66,12 @@ function home_scrollToSection(){
 	$("body").on('click', '#bio', function(){
 	    $('html, body').animate({
 	        scrollTop: $("#bio-text").offset().top - 20
+	    }, 400);
+	});
+	
+	$('body').on('click', '#top', function(){
+	    $('html, body').animate({
+	        scrollTop: $("#main").offset().top - 20
 	    }, 400);
 	});
 	

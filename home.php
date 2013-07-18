@@ -112,19 +112,8 @@
         <br>
 				
 		  </div>
-
-    <div id='side' class='homeside'>
-      <img src="images/profile.jpg" class="profile" alt="profile-pic">
-      <br><br>
-      <div class="subprofile">
-        <h3>Alexander J. Mark</h3>
-        <h3>CMU Class of 2015</h3>
-        <br><br>
-        <h3 class='scroll' id='bio'><span>Who</span> Am I?</h3>
-        <h3 class='scroll' id='hobbies'>My <span>Interests</span>.</h3>
-        <h3 class='scroll' id='news'><span>Things</span> I've Been Up To.</h3>
-      </div>
-    </div>
+		
+		<?php include('includes/homeside.php'); ?>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->

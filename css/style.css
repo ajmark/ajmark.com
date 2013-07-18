@@ -132,7 +132,7 @@ br {
 #nav {
 	position: absolute;
 	float: right;
-	right: 10%;
+	right: 9.5%;
 	padding-top: 1.5em;
 }
 
@@ -555,7 +555,7 @@ br {
   line-height: 2em;
 } 
 
-#bio,#hobbies,#news:hover {
+#portfolio,#top,#bio,#hobbies,#news:hover {
   cursor: pointer;
 }
 
