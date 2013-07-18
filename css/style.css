@@ -391,11 +391,11 @@ br {
   border: 1px solid rgba(0,0,0,0.18);
 }
 
-/*
-.inside-text {
-	width: 106% !important;
-} 
-*/
+.text-body {
+	position: relative;
+	float: left;
+	margin-bottom: 5em;
+}
 
 /******************/
 /* Resume */
@@ -403,7 +403,7 @@ br {
 
 #wrapper {
 	border: 1px solid rgba(0,0,0,0.18);
-	margin-bottom: 10em;
+	margin-bottom: 5em;
 	border-radius: 5px;
 	background-color: #FAFAFA;
 }
@@ -651,6 +651,7 @@ input[type='submit'] {
   position: relative;
 	float: left; 
 	margin-bottom: 5em;
+	width: 103%
 }
 
 #portfolio-main .wrap {
@@ -659,7 +660,7 @@ input[type='submit'] {
 }
 
 #portfolio-page {
-  padding: 4em 0 0 6em;
+  padding: 4em 0 0 8em;
 }
 
 #portfolio-page .wrap {

@@ -31,7 +31,7 @@
         <h2 class='text-body'>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction. I aspire to work in the UX field through the use of my skills as a software developer and my affinity for design and interfaces. Check out some of my work below. </h2>
         <br>
 			</div>
-			<div id='#portfolio-main'>
+			<div id='portfolio-main'>
         <ul id="items">
           <li class="project-item">
             <div class="project-box">
@@ -85,22 +85,25 @@
           </li>
         </ul>
 			</div>
-			
-        <h1 class='text-body' id="bio-text"><span>Who</span> Am I?</h1>
-				<div class="text-wrap inside-text">
+			<br>
+        
+				<div class="text-wrap inside-text text-body">
+					<h1 id="bio-text"><span>Who</span> Am I?</h1>
 					<img id='goldengate' src='images/goldengate.png' width='200px'>
-        	<h2 class='text-body'>I'm a Bay Area native. Growing up on the San Francisco Peninsula, I have had a lot of exposure to the Silicoln Valley and all of the opportunities it has to offer. However, moving to Pittsburgh for school was the best decisions I could have ever made. This city has given me a new perspective on how I view the world and how I can apply myself. It has helped me appreciate everything I have in life and all of my experiences.</h2>
+        	<h2>I'm a Bay Area native. Growing up on the San Francisco Peninsula, I have had a lot of exposure to the Silicoln Valley and all of the opportunities it has to offer. However, moving to Pittsburgh for school was the best decisions I could have ever made. This city has given me a new perspective on how I view the world and how I can apply myself. It has helped me appreciate everything I have in life and all of my experiences.</h2>
 				</div> 
         <br>
-        <h1 class='text-body' id="hobbies-text">My <span>Interests</span>.</h1>
-				<div class='text-wrap inside-text'>
-          <h2 class='text-body'><span>Ukulele &amp; Guitar</span>: Growing up, I was a hip-hop junkie and I never would have expected to fall in love with the Ukulele. I started playing my Freshman year in college and I couldn't stop. Before you know it, I was playing songs by famous Ukulele artists such as Jake Shimabukuro and Troy Fernandez. <br>One thing led to another and in my Sophomore year of college, I bought myself an Alvarez acoustic guitar and I was once again hooked. The challenge of teaching yourself a skill from scratch is something I find exciting and addicting. I've mainly been using my guitar to progress my soloing techniques but I love trying to pick up a song by Tommy Emmanuel every now and then.</h2>
-				  <h2 class='text-body'><span>Sports</span>: Mainly basketball but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, </h2>
-				  <h2 class='text-body'><span>Sneakers</span>: I'm a snearkerhead. My friends in highschool got me into the culture and even though I'm not quite on their level, I can still hold my own. I still catch myself browsing sites like SoleCollector every now and then...</h2>
+			
+				<div class='text-wrap inside-text text-body'>
+					<h1 id="hobbies-text">My <span>Interests</span>.</h1>
+          <h2><span>Ukulele &amp; Guitar</span>: Growing up, I was a hip-hop junkie and I never would have expected to fall in love with the Ukulele. I started playing my Freshman year in college and I couldn't stop. Before you know it, I was playing songs by famous Ukulele artists such as Jake Shimabukuro and Troy Fernandez. <br>One thing led to another and in my Sophomore year of college, I bought myself an Alvarez acoustic guitar and I was once again hooked. The challenge of teaching yourself a skill from scratch is something I find exciting and addicting. I've mainly been using my guitar to progress my soloing techniques but I love trying to pick up a song by Tommy Emmanuel every now and then.</h2>
+				  <h2><span>Sports</span>: Mainly basketball but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, </h2>
+				  <h2><span>Sneakers</span>: I'm a snearkerhead. My friends in highschool got me into the culture and even though I'm not quite on their level, I can still hold my own. I still catch myself browsing sites like SoleCollector every now and then...</h2>
 			  </div>
 				<br>
-        <h1 class='text-body' id='news-text'><span>Things</span> I've Been Up To.</h1>
+		
 				<div class='text-body text-wrap inside-text'>
+					<h1 id='news-text'><span>Things</span> I've Been Up To.</h1>
 					<img class='xray' src='images/surgery.jpg'>
 					<img class='xray' src='images/broken1.jpg'>
 					

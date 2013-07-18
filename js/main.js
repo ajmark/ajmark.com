@@ -47,20 +47,20 @@ function home_scrollToSection(){
 	
 	$('body').on('click', '#hobbies', function(){
 	    $('html, body').animate({
-	        scrollTop: $("#hobbies-text").offset().top - 80
-	    }, 300);
+	        scrollTop: $("#hobbies-text").offset().top - 20
+	    }, 400);
 	});
 	
 	$("body").on('click', '#news', function(){
 	    $('html, body').animate({
-	        scrollTop: $("#news-text").offset().top - 80
-	    }, 300);
+	        scrollTop: $("#news-text").offset().top - 20
+	    }, 400);
 	});
 	
 	$("body").on('click', '#bio', function(){
 	    $('html, body').animate({
-	        scrollTop: $("#bio-text").offset().top - 80
-	    }, 300);
+	        scrollTop: $("#bio-text").offset().top - 20
+	    }, 400);
 	});
 	
 }
