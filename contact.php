@@ -24,7 +24,7 @@
 
     <div id='main'>
       <div class='text-wrap larger'>
-        <h1>Leave me a <span>Message</span></h1>
+        <h1>Leave me a <span>message</span>.</h1>
         <div id='wrapper'>
           <form action='send_mail.php' method='post'>
             <div class='field' style='font-weight: lighter'>
@@ -49,15 +49,7 @@
       </div>
     </div>
 
-    <div id='side'>
-			<img src="images/profile.jpg" class="profile" alt="profile-pic">
-			<br><br>
-			<div class="subprofile">
-        <h5>ajmark@andrew.cmu.edu</h5>
-        <br>
-        <h3>Talk to me about sports, music, technology or just to say hi!</h3>
-			</div>
-    </div>
+		<?php include('includes/contactside.php'); ?>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->

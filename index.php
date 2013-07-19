@@ -23,7 +23,7 @@
 		
     <?php include('includes/header.php'); ?>
 
-    <div id='main'>
+<div id='main'>
       <div class="text-wrap">
         <h1 class='intro'>
           Just call me <span>Alex</span>.
@@ -86,34 +86,34 @@
         </ul>
 			</div>
 			<br>
-        
-				<div class="text-wrap inside-text text-body">
-					<h1 id="bio-text"><span>Who</span> Am I?</h1>
-					<img id='goldengate' src='images/goldengate.png' width='200px'>
-        	<h2>I'm a Bay Area native. Growing up on the San Francisco Peninsula, I have had a lot of exposure to the Silicoln Valley and all of the opportunities it has to offer. However, moving to Pittsburgh for school was the best decisions I could have ever made. This city has given me a new perspective on how I view the world and how I can apply myself. It has helped me appreciate everything I have in life and all of my experiences.</h2>
-				</div> 
-        <br>
 			
-				<div class='text-wrap inside-text text-body'>
-					<h1 id="hobbies-text">My <span>Interests</span>.</h1>
-          <h2><span>Ukulele &amp; Guitar</span>: Growing up, I was a hip-hop junkie and I never would have expected to fall in love with the Ukulele. I started playing my Freshman year in college and I couldn't stop. Before you know it, I was playing songs by famous Ukulele artists such as Jake Shimabukuro and Troy Fernandez. <br>One thing led to another and in my Sophomore year of college, I bought myself an Alvarez acoustic guitar and I was once again hooked. The challenge of teaching yourself a skill from scratch is something I find exciting and addicting. I've mainly been using my guitar to progress my soloing techniques but I love trying to pick up a song by Tommy Emmanuel every now and then.</h2>
-				  <h2><span>Sports</span>: Mainly basketball but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, </h2>
-				  <h2><span>Sneakers</span>: I'm a snearkerhead. My friends in highschool got me into the culture and even though I'm not quite on their level, I can still hold my own. I still catch myself browsing sites like SoleCollector every now and then...</h2>
-			  </div>
-				<br>
-		
 				<div class='text-body text-wrap inside-text'>
-					<h1 id='news-text'><span>Things</span> I've Been Up To.</h1>
+					<h1 id='news-text'><span>Accomplishments</span>.</h1>
 					<img class='xray' src='images/surgery.jpg'>
 					<img class='xray' src='images/broken1.jpg'>
 					
           <h2><span>March 2013</span>: I broke my ankle. Probably one of the most painful and difficult experiences of my life, I don't reccomend it. I fractured the fibula and displaced the tibia by a couple of millimeters. It required 9 screws and a plate to fix. I'm still feeling the effects from the surgery but the whole experience has taught me a lot about myself and has made me thankful for my health. I'm glad I now have a really cool scar and pictures to share.</h2>
 				</div>
         <br>
+        
+				<div class="text-wrap inside-text text-body">
+					<h1 id="bio-text"><span>About</span>.</h1>
+					<img id='goldengate' src='images/goldengate.png' width='200px'>
+        	<h2>I'm a Bay Area native. Growing up on the San Francisco Peninsula, I have had a lot of exposure to the Silicoln Valley and all of the opportunities it has to offer. However, moving to Pittsburgh for school was the best decisions I could have ever made. This city has given me a new perspective on how I view the world and how I can apply myself. It has helped me appreciate everything I have in life and all of my experiences.</h2>
+				</div> 
+        <br>
+			
+				<div class='text-wrap inside-text text-body'>
+					<h1 id="hobbies-text"><span>Interests</span>.</h1>
+          <h2><span>Ukulele &amp; Guitar</span>: Growing up, I was a hip-hop junkie and I never would have expected to fall in love with the Ukulele. I started playing my Freshman year in college and I couldn't stop. Before you know it, I was playing songs by famous Ukulele artists such as Jake Shimabukuro and Troy Fernandez. <br>One thing led to another and in my Sophomore year of college, I bought myself an Alvarez acoustic guitar and I was once again hooked. The challenge of teaching yourself a skill from scratch is something I find exciting and addicting. I've mainly been using my guitar to progress my soloing techniques but I love trying to pick up a song by Tommy Emmanuel every now and then.</h2>
+				  <h2><span>Sports</span>: Mainly basketball but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, </h2>
+				  <h2><span>Sneakers</span>: I'm a snearkerhead. My friends in highschool got me into the culture and even though I'm not quite on their level, I can still hold my own. I still catch myself browsing sites like SoleCollector every now and then...</h2>
+			  </div>
+				<br>
 				
 		  </div>
 
-    <?php include('includes/homeside.php'); ?>
+      <?php include('includes/homeside.php'); ?>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->

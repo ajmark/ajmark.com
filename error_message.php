@@ -24,23 +24,13 @@
 
     <div id='main'>
       <div class='text-wrap'>
-        <h1>Oo<span>ps</span>!</h1>
+        <h1><span>Oops</span>! There was an error.</h1>
+				<h3><a href='contact.php'>Try Again....</a></h3>
 
       </div>
     </div>
 
-    <div id='side'>
-      <img src="images/gmail.png" id='gmail'>
-      <br>
-      <div class="subprofile">
-        <h3>ajmark@andrew.cmu.edu</h3>
-        <br>
-        <h3>Alexander J. Mark</h3>
-        <h3>5032 Forbes Ave.</h3>
-        <h3>SMC 4210</h3>
-        <h3>Pittsburgh, PA 15289</h3>
-      </div>
-    </div>
+		<?php include('includes/contactside.php'); ?>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->

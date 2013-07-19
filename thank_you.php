@@ -25,22 +25,26 @@
     <div id='main'>
       <div class='text-wrap'>
         <h1>Thank <span>You</span>!</h1>
-
+				<h1>I'll read your message soon.</h1>
+				<br>
+				<div class='text-box'>
+				  <h3>In the meantime check out some cool links!</h3>
+				  <br>
+				  <h3>Music</h3>
+				  <h3><a href='http://www.youtube.com/watch?v=AhR04kmcSXU' target='_blank'>Tommy Emmanuel</a></h3>
+				  <h3><a href='http://www.youtube.com/watch?v=puSkP3uym5k' target='_blank'>Jake Shimabukuro</a></h3>
+				  <h3><a href='http://www.youtube.com/watch?v=b5zuxnr-rJQ' target='_blank'>Kalei Gamiao</a></h3>
+				  <br>
+				  <h3>Sports</h3>
+				  <h3><a href='http://www.youtube.com/watch?v=1_rKW3HL9GE' target='_blank'>BIG Dunk</a></h3>
+					<br>
+				  <h3>Shoes!</h3>
+					<h3><a href='http://solecollector.com/' target='_blank'>SoleCollector</a></h3>
+				</div>
       </div>
     </div>
 
-    <div id='side'>
-      <img src="images/gmail.png" id='gmail'>
-      <br>
-      <div class="subprofile">
-        <h3>ajmark@andrew.cmu.edu</h3>
-        <br>
-        <h3>Alexander J. Mark</h3>
-        <h3>5032 Forbes Ave.</h3>
-        <h3>SMC 4210</h3>
-        <h3>Pittsburgh, PA 15289</h3>
-      </div>
-    </div>
+		<?php include('includes/contactside.php'); ?>
 
     <!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> -->
