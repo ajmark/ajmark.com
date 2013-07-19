@@ -380,15 +380,11 @@ br {
 	left: 3em;
 }
 
-.xray {
+#bny {
   position: relative;
 	float: right;
-	margin-left: 2em;
-	margin-right: 1em;	
-}
-
-.xray {
-  border: 1px solid rgba(0,0,0,0.18);
+	margin: -1em 6em 0 2em;
+	width: 15%;	
 }
 
 .text-body {
@@ -559,9 +555,9 @@ br {
 }
 
 .scroll {
-  font-weight: normal;
-  font-size: 1.3em;
-  color: #808080;
+  font-weight: lighter;
+  font-size: 1.2em;
+  color: #8D172F;
 }
 
 .link-small {
