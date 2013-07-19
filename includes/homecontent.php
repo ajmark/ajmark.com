@@ -74,7 +74,7 @@
 				<div class="text-wrap inside-text text-body">
 					<h1 id="bio-text">About<span>.</span></h1>
 					<img id='goldengate' src='images/goldengate.png' width='200px'>
-        	<h2>I grew up on the San Francisco Peninsula but I currently live in Pittsburgh, PA as I attend school. My major is in Information Systems and I am taking a minor in Human Computer Interaction, which I am working on turning into a second major. Through my experience as an intern, I have discovered that the proper display of information and development of user-friendly software is essential to a company's success. This is my niche and I want to be able to utilze my skills as a programmer (with an eye for design) to help build better interfaces.</h2>
+        	<h2>I grew up on the San Francisco Peninsula but I currently live in Pittsburgh, PA as I attend school. My major is in Information Systems and I am taking a minor in Human Computer Interaction, which I am working on turning into a second major. Through my experiences as an intern, I have discovered that the proper display of information and the development of user-friendly software is essential to a company's success. This is my niche and I want to be able to utilze my skills as a programmer (with an eye for design) to help build better interfaces.</h2>
 				</div> 
         <br>
 			
