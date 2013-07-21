@@ -5,6 +5,10 @@
    
 */
 
+/******************/
+/* Media Queries */
+/******************/
+
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 767px) 
@@ -24,6 +28,12 @@ and (max-device-width : 1025px) {
 			float: right;
 			right: -9%;
 			padding-top: 7%;
+		}
+		.project-item {
+  		float:left;
+  		padding-right: 2em;
+  		padding-bottom: 2em;
+			width: 45%;
 		}
 		.project-box {
   		cursor: pointer;
@@ -75,12 +85,21 @@ and (max-width : 1223px) {
   		padding: 8% 0 0 4%;
 			width: 100%;
 		}
+	
 		#nav {
 			position: absolute;
 			float: right;
 			right: -9%;
 			padding-top: 7%;
 		}
+	
+		.project-item {
+  			float:left;
+  			padding-right: 2em;
+  			padding-bottom: 2em;
+				width: 45%;
+		}
+	
 		.project-box {
   		cursor: pointer;
   		float: left;
@@ -126,10 +145,12 @@ and (min-width : 1223px) and (max-width : 1599px) {
 			right: 2%;
 			top: 18%;
 		}
+	
 		#portfolio-page {
   		padding: 8% 0 0 6%;
 			width: 92%;
 		}
+	
 		#nav {
 			position: absolute;
 			float: right;
@@ -141,6 +162,7 @@ and (min-width : 1223px) and (max-width : 1599px) {
   		float:left;
   		padding-right: 2em;
   		padding-bottom: 2em;
+			width: 45%;
 		}
 
 		.project-box {
@@ -193,17 +215,20 @@ and (min-width : 1599px) {
   		padding: 8% 0 0 6%;
 			width: 75%;
 		}
+	
 		#nav {
 			position: absolute;
 			float: right;
 			right: 8%;
 			padding-top: 5%;
 		}
+	
 
 		.project-item {
   		float:left;
   		padding-right: 2em;
   		padding-bottom: 2em;
+			width: 30%;
 		}
 
 		.project-box {
@@ -242,6 +267,10 @@ and (min-width : 1599px) {
   		border:1px solid rgba(0,0,0,0.18);
 		}
 }
+
+/******************/
+/* Default CSS */
+/******************/
 
 body {
 	font-family:'Merriweather Sans', sans-serif;
@@ -738,12 +767,14 @@ input[type='submit'] {
 }
 */
 
+/*
 .project-item {
   float:left;
   padding-right: 2em;
   padding-bottom: 2em;
 	width: 45%;
 }
+*/
 
 /*
 .project-item {
