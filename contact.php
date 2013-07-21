@@ -26,7 +26,7 @@
               <br>
               <textarea type='textfield' name='comments'></textarea>
               </div>
-            <input type='submit' value='Send Message!' class='button' style='font-weight: lighter'>
+            <input type='submit' value='Send message' class='button' style='font-weight: lighter'>
           </form>
         </div>
       </div>

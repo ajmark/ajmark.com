@@ -5,6 +5,244 @@
    
 */
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 767px) 
+and (max-device-width : 1025px) {
+		#side{
+			position: fixed;
+			width: 30%;
+			right: 2%;
+			top: 18%;
+		}
+		#portfolio-page {
+  		padding: 8% 0 0 4%;
+			width: 100%;
+		}
+		#nav {
+			position: absolute;
+			float: right;
+			right: -9%;
+			padding-top: 7%;
+		}
+		.project-box {
+  		cursor: pointer;
+  		float: left;
+  		margin: 0px;
+		}
+
+		.project-box h3 {
+  		cursor: pointer;
+  		line-height: 12px;
+  		margin: 0;
+		}
+
+		.project-box h3 a {
+  		display: inline-block;
+  		background: url(../images/label.png) top left no-repeat;
+  		font-size: 14px;
+  		font-weight: bold;
+  		line-height: 46px;
+  		font-weight: lighter;
+  		padding: 0em 2em 1em 1em;
+  		position: absolute;
+  		color: white;
+  		margin-left: -1.5%;
+  		margin-top: 15%;
+		}
+
+		.project-box h3 a:hover {
+  		background: url(../images/label-alt.png) top left no-repeat;
+		}
+
+		.project-box a img {
+  		width: 100%;
+  		border:1px solid rgba(0,0,0,0.18);
+		}
+}
+
+/* Small screens ----------- */
+@media only screen 
+and (min-width : 767px) 
+and (max-width : 1223px) {
+		#side{
+			position: fixed;
+			width: 30%;
+			right: 2%;
+			top: 18%;
+		}
+		#portfolio-page {
+  		padding: 8% 0 0 4%;
+			width: 100%;
+		}
+		#nav {
+			position: absolute;
+			float: right;
+			right: -9%;
+			padding-top: 7%;
+		}
+		.project-box {
+  		cursor: pointer;
+  		float: left;
+  		margin: 0px;
+		}
+
+		.project-box h3 {
+  		cursor: pointer;
+  		line-height: 12px;
+  		margin: 0;
+		}
+
+		.project-box h3 a {
+  		display: inline-block;
+  		background: url(../images/label.png) top left no-repeat;
+  		font-size: 14px;
+  		font-weight: bold;
+  		line-height: 46px;
+  		font-weight: lighter;
+  		padding: 0em 2em 1em 1em;
+  		position: absolute;
+  		color: white;
+  		margin-left: -1.5%;
+  		margin-top: 15%;
+		}
+
+		.project-box h3 a:hover {
+  		background: url(../images/label-alt.png) top left no-repeat;
+		}
+
+		.project-box a img {
+  		width: 100%;
+  		border:1px solid rgba(0,0,0,0.18);
+		}
+}
+
+/* Desktops & Laptops ----------- */
+@media only screen 
+and (min-width : 1223px) and (max-width : 1599px) {
+		#side{
+			position: fixed;
+			width: 30%;
+			right: 2%;
+			top: 18%;
+		}
+		#portfolio-page {
+  		padding: 8% 0 0 6%;
+			width: 92%;
+		}
+		#nav {
+			position: absolute;
+			float: right;
+			right: 0%;
+			padding-top: 5%;
+		}
+	
+		.project-item {
+  		float:left;
+  		padding-right: 2em;
+  		padding-bottom: 2em;
+		}
+
+		.project-box {
+  		cursor: pointer;
+  		float: left;
+  		margin: 0px;
+		}
+
+		.project-box h3 {
+  		cursor: pointer;
+  		line-height: 12px;
+  		margin: 0;
+		}
+
+		.project-box h3 a {
+  		display: inline-block;
+  		background: url(../images/label.png) top left no-repeat;
+  		font-size: 14px;
+  		font-weight: bold;
+  		line-height: 46px;
+  		font-weight: lighter;
+  		padding: 0em 2em 1em 1em;
+  		position: absolute;
+  		color: white;
+  		margin-left: -.8em;
+  		margin-top: 10.6em;
+		}
+
+		.project-box h3 a:hover {
+  		background: url(../images/label-alt.png) top left no-repeat;
+		}
+
+		.project-box a img {
+  		width: 27em;
+  		height: 18em;
+  		border:1px solid rgba(0,0,0,0.18);
+		}
+}
+
+/* Large Screens ----------- */
+@media only screen 
+and (min-width : 1599px) {
+		#side{
+			position: fixed;
+			width: 30%;
+			right: 2%;
+			top: 24%;
+		}
+		#portfolio-page {
+  		padding: 8% 0 0 6%;
+			width: 75%;
+		}
+		#nav {
+			position: absolute;
+			float: right;
+			right: 8%;
+			padding-top: 5%;
+		}
+
+		.project-item {
+  		float:left;
+  		padding-right: 2em;
+  		padding-bottom: 2em;
+		}
+
+		.project-box {
+  		cursor: pointer;
+  		float: left;
+  		margin: 0px;
+		}
+
+		.project-box h3 {
+  		cursor: pointer;
+  		line-height: 12px;
+  		margin: 0;
+		}
+
+		.project-box h3 a {
+  		display: inline-block;
+  		background: url(../images/label.png) top left no-repeat;
+  		font-size: 14px;
+  		font-weight: bold;
+  		line-height: 46px;
+  		font-weight: lighter;
+  		padding: 0em 2em 1em 1em;
+  		position: absolute;
+  		color: white;
+  		margin-left: -.8em;
+  		margin-top: 10.6em;
+		}
+
+		.project-box h3 a:hover {
+  		background: url(../images/label-alt.png) top left no-repeat;
+		}
+
+		.project-box a img {
+  		width: 27em;
+  		height: 18em;
+  		border:1px solid rgba(0,0,0,0.18);
+		}
+}
+
 body {
 	font-family:'Merriweather Sans', sans-serif;
 	background: #F5F5F5;
@@ -118,8 +356,9 @@ br {
 /*	background-color: #E5E5E5;*/
 	position: fixed;
 	height: 50px;
-	width: 100%;
+	width: 78%;
   z-index: 999;
+	left:12%
 }
 
 #header.alt {
@@ -133,12 +372,14 @@ br {
 	right: 10px;
 }
 
+/*
 #nav {
 	position: absolute;
 	float: right;
-	right: 9.5%;
-	padding-top: 3%;
+	right: 0%;
+	padding-top: 5%;
 }
+*/
 
 #nav ul {
 
@@ -172,9 +413,9 @@ br {
 
 #logo {
 	position: absolute;
-	padding-top: 3%;
+	padding-top: 5%;
 	cursor: pointer;
-	left: 4%;
+	left: -10%;
   opacity: 0.7;
 }
 
@@ -194,8 +435,7 @@ br {
 #main {
 	width: 55%;
 	height: auto;
-	padding: 8em 0 0 12em;
-  margin-bottom: 20em;
+	padding: 8% 0 0 12%;
 }
 
 #main .text-wrap {
@@ -281,9 +521,8 @@ br {
 #side{
 	position: fixed;
 	width: 30%;
-	height: 100%;
-	right: 2em;
-	top: 8em;
+	right: 2%;
+	top: 18%;
 }
 
 #side .profile {
@@ -440,7 +679,7 @@ form {
 }
 
 textarea {
-  width: 50em;
+  width: 80%;
   height: 15em;
   border: 1px solid rgba(0,0,0,0.18);
   border-radius: 5px;
@@ -492,15 +731,21 @@ input[type='submit'] {
   height: 100%;
 }
 
+/*
 #portfolio-page {
-  padding: 4em 0 0 8em;
+  padding: 8% 0 0 6%;
+	width: 92%;
+}
+*/
+
+.project-item {
+  float:left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+	width: 45%;
 }
 
-#portfolio-page .wrap {
-  width: 80%;
-  height: auto;
-}
-
+/*
 .project-item {
   float:left;
   padding-right: 2em;
@@ -542,6 +787,7 @@ input[type='submit'] {
   height: 18em;
   border:1px solid rgba(0,0,0,0.18);
 }
+*/
 
 /******************/
 /* ARL Portfolio Page */
@@ -556,7 +802,7 @@ input[type='submit'] {
 }
 
 .text-box {
-  width: 30em;
+  width: 28em;
   height: auto;
   position: relative;
   float: left;
@@ -641,7 +887,7 @@ input[type='submit'] {
 
 #skitter {
 	position: absolute; 
-	left: 55em;
+	left: 55%;
 	padding-bottom: 20em;
 }
 
@@ -651,7 +897,7 @@ input[type='submit'] {
 
 #skitter-wide { 
 	position: absolute;
-	left: 20em;
+	left: 10%;
 /*	top: 40em;*/
 	padding-bottom: 20em; 
 }

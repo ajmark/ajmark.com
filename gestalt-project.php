@@ -51,7 +51,7 @@
       <h1>Form &#38; Composition | <span>Gestalt Principles</span></h1>
       <br>
 
-      <div class="text-box">
+      <div class="textbox-wide">
         <h2>About the Project</h2>
         <p>The purpose of this assignment was to experiment with simple objects to convey meaning. Our task was to use black squares of different sizes and orientations to illustrate words such as motion, tension and order. The theme of the project was to create our compositions around the Gestalt principles, where it was essential that each overall piece conveyed the meaning rather than their individual parts. This required us to explore the many different uses of white space, figure, proximity, etc. and how each of these concepts interact with each other.
         </p>
