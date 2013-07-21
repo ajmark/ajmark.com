@@ -79,7 +79,7 @@ and (max-width : 1223px) {
 			position: fixed;
 			width: 30%;
 			right: 2%;
-			top: 18%;
+			top: 16%;
 		}
 		#portfolio-page {
   		padding: 8% 0 0 4%;
@@ -138,7 +138,7 @@ and (max-width : 1223px) {
 
 /* Desktops & Laptops ----------- */
 @media only screen 
-and (min-width : 1223px) and (max-width : 1599px) {
+and (min-width : 1223px) and (max-width : 1600px) {
 		#side{
 			position: fixed;
 			width: 30%;
@@ -204,12 +204,12 @@ and (min-width : 1223px) and (max-width : 1599px) {
 
 /* Large Screens ----------- */
 @media only screen 
-and (min-width : 1599px) {
+and (min-width : 1601px) {
 		#side{
 			position: fixed;
 			width: 30%;
 			right: 2%;
-			top: 24%;
+			top: 25%;
 		}
 		#portfolio-page {
   		padding: 8% 0 0 6%;
@@ -547,12 +547,14 @@ br {
 /* Homepage&Resume Sidebar */
 /******************/
 
+/*
 #side{
 	position: fixed;
 	width: 30%;
 	right: 2%;
 	top: 18%;
 }
+*/
 
 #side .profile {
 	position: relative;
@@ -918,7 +920,7 @@ input[type='submit'] {
 
 #skitter {
 	position: absolute; 
-	left: 55%;
+	left: 50%;
 	padding-bottom: 20em;
 }
 
