@@ -11,8 +11,12 @@ body {
 	font-size: 12px;
 	line-height: 1.4em;
 	overflow-y: scroll;
+	width: 100%;
 }
 
+body.index-first {
+	display: none;
+}
 /******************/
 /* Type */
 /******************/

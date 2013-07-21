@@ -7,8 +7,13 @@
   <div id='nav'>
     <ul>
       <li>
-        <a class="<?php if ($name=='index.php') { echo 'focus'; } else { echo 'text';}?>" href="index.php">Home</a>
+        <a class="<?php if ($name=='home.php' || $name=='index.php') { echo 'focus'; } else { echo 'text';}?>" href="home.php">Home</a>
       </li>
+<!--
+      <li>
+        <a class="<?php if ($name=='portfolio.php') { echo 'focus'; } else { echo 'text';}?>" href="portfolio.php">Portfolio</a>
+      </li>
+-->
       <li>
         <a class="<?php if ($name=='resume.php') { echo 'focus'; } else { echo 'text';}?>" href="resume.php">Resume</a>
       </li>
