@@ -1,3 +1,8 @@
+<?php session_start();
+	if(!isset($_SESSION['visit'])) $_SESSION['visit'] = 0;
+	$_SESSION['timeout'] = time(); 
+	if ($_SESSION['timeout'] + 10*60 < time()) session_destroy; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php include('includes/head.php'); ?>
@@ -12,18 +17,22 @@
     <script type='text/javascript' src="js/main.js"></script>
 	<script> 
 		$(document).ready(function() {
-  			$('.intro').css('display', 'none');
-  			$('.text-body').css('display', 'none');
-  			$('.homeheader').css('display', 'none');
-  			$('.homeside').css('display', 'none');
+			  $.get('first_visit.php', function(data) {
+					if (data == '0') {
+  					$('.intro').css('display', 'none');
+  					$('.text-body').css('display', 'none');
+  					$('.homeheader').css('display', 'none');
+  					$('.homeside').css('display', 'none');
 
-  			$('.intro').fadeIn(800, function(){
-    			$('.text-body').delay(500).fadeIn(350, function(){
-      				$('.homeheader').fadeIn(350, function(){
-        				$('.homeside').fadeIn(350);
-      				});
-    			});
-  			});
+  					$('.intro').fadeIn(800, function(){
+    					$('.text-body').delay(500).fadeIn(350, function(){
+      					$('.homeheader').fadeIn(350, function(){
+        					$('.homeside').fadeIn(350);
+      						});
+    						});
+  						});
+					}
+				});
 		});
 	</script>
   </body>

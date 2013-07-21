@@ -13,7 +13,7 @@
             <h3>Current</h3>
             <h4>The Bank of New York Mellon</h4>
             <h5>Software Development Intern | Pittsburgh, PA</h5>
-            <p>Developed portal components for the upgraded version of BNY's WebSTP software<br>
+            <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
 							Showcased workflow management processes through server side Java programming
 						</p>
           </div>
@@ -77,7 +77,7 @@
       </div>  
     </div> 
 
-    <div id ='side'>
+    <div id ='side' class='resume'>
       <a class="button" href="files/resumecolor.pdf" target="_blank">Open PDF Resume</a>
 			<a class='link-small' href='files/resumeb&w.pdf' target='_blank'>Click here for a black and white version...</a>
       <div class='info'>
