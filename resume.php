@@ -67,10 +67,8 @@
           <div class='rbox'> 
             <h3>January 2008 - <br>June 2011</h3>
             <h4>Special Olympics Volunteer</h4>
-            <h5>Interfraterninty Council Representative | San Mateo, CA</h5>
-            <p>Represented Sigma Alpha Epsilon in the Carnegie Mellon Greek Council<br>
-              Spring Rush Committee<br>
-              Coordinated weekly practices with athletes and volunteers<br>
+            <h5>Head Basketball Coach | San Mateo, CA</h5>
+            <p>Coordinated weekly practices with athletes and volunteers<br>
               Oversaw teams in out of area regional tournaments</p>
           </div>
         </div>
