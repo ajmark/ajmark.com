@@ -53,12 +53,12 @@
 
       <div class="textbox-wide">
         <h2>About the Project</h2>
-        <p>The purpose of this assignment was to experiment with simple objects to convey meaning. Our task was to use black squares of different sizes and orientations to illustrate words such as motion, tension and order. The theme of the project was to create our compositions around the Gestalt principles, where it was essential that each overall piece conveyed the meaning rather than their individual parts. This required us to explore the many different uses of white space, figure, proximity, etc. and how each of these concepts interact with each other.
+        <p>The purpose of this assignment was to experiment with simple objects to convey meaning. Our task was to use black squares of different sizes and orientations to illustrate words such as motion, tension and order. The theme of the project was to create our compositions around the <a href='http://sixrevisions.com/web_design/gestalt-principles-applied-in-design/'>Gestalt principles</a>, where it was essential that each overall piece conveyed the meaning rather than their individual parts. This required us to explore the many different uses of white space, figure, proximity, etc. and how each of these concepts interact with each other.
         </p>
         <br>
 
         <h2>Project Process</h2>
-        <p> Before beginning to brainstorm ideas of each composition, the first step I took was to look of the definition for each of the assigned words even if I already thought I knew the definition of a word. This initial process helped me organize my ideas before I even began brainstorming so I understood the general direction I wanted to take while creating my project. I went through several sketches before picking my favorite iteration of each word. This was my first design project and it got me thinking and trying to solve problems in ways that challenged me to step out of my comfort zone.
+        <p> Before beginning to brainstorm ideas of each composition, the first step I took was to look of the definition for each of the assigned words even if I already thought I knew the definition of a word. This initial process helped me organize my ideas so I understood the direction I wanted to take while creating my project. I went through several sketches before picking my favorite iteration of each word. This was my first design project and it got me thinking and trying to solve problems in ways that challenged me to step out of my comfort zone.
         </p>
 	    </div>
 	  <div id='skitter'>

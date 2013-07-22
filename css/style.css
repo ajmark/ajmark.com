@@ -75,12 +75,14 @@ and (max-device-width : 1025px) {
 @media only screen 
 and (min-width : 767px) 
 and (max-width : 1223px) {
+	
 		#side{
 			position: fixed;
 			width: 30%;
 			right: 2%;
-			top: 16%;
+			top: 18%;
 		}
+	
 		#portfolio-page {
   		padding: 8% 0 0 4%;
 			width: 100%;

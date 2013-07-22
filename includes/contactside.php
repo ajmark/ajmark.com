@@ -7,7 +7,7 @@
         <h3>Talk to me about sports, music, technology or just to say hi!</h3>
 				<br>
 				<h3>You can find me in: <span>Pittsburgh, PA</span></h3>
-				<br><br>
+				<br>
 				<a class='social' href='http://www.linkedin.com/pub/alexander-mark/58/9b/605' target='_blank'>LinkedIn</a>
 				<br>
 				<a class='social' href='http://www.github.com/ajmark' target='_blank'>GitHub</a>
