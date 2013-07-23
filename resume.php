@@ -14,7 +14,7 @@
             <h4>The Bank of New York Mellon</h4>
             <h5>Software Development Intern | Pittsburgh, PA</h5>
             <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
-							Showcased workflow management processes through server side Java programming
+							Wrote CRUD functionality for application through server side Java programming
 						</p>
           </div>
           <div class='rbox'</div>
@@ -90,9 +90,11 @@
           <li>Java</li>
 					<li>JavaScript</li>
           <li>JQuery</li>
+					<li>PHP</li>
           <li>Python</li>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
+					<li>MongoDB</li>
           <li>mySQL</li>
         </ul>
         <br>

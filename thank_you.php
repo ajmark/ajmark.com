@@ -17,9 +17,10 @@
 				  <h3><a href='http://www.youtube.com/watch?v=AhR04kmcSXU' target='_blank'>Tommy Emmanuel</a></h3>
 				  <h3><a href='http://www.youtube.com/watch?v=puSkP3uym5k' target='_blank'>Jake Shimabukuro</a></h3>
 				  <h3><a href='http://www.youtube.com/watch?v=b5zuxnr-rJQ' target='_blank'>Kalei Gamiao</a></h3>
+					<h3><a href='htt[://www.earmilk.com'>Earmilk</a></h3>
 				  <br>
 				  <h3>Sports</h3>
-				  <h3><a href='http://www.youtube.com/watch?v=1_rKW3HL9GE' target='_blank'>BIG Dunk</a></h3>
+				  <h3><a href='http://www.youtube.com/watch?v=1_rKW3HL9GE' target='_blank'>DeAndre Jordan</a></h3>
 					<br>
 				  <h3>Shoes</h3>
 					<h3><a href='http://solecollector.com/' target='_blank'>SoleCollector</a></h3>

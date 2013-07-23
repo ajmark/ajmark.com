@@ -1,6 +1,6 @@
   <head>
   	<meta charset="utf-8"/>
-  	<title>Alex Mark</title>
+  	<title>Alexander Mark | ajmark.com</title>
   	<meta name="author" content="Alex Mark" />
     <meta name="description" content="Personal website for a current Carnegie Mellon student"/>
   	<meta name="keywords" content="Alex Mark, Carnegie Mellon, Information Systems, cmu, Alexander Mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, silicon valley, california, pennsylvania, alex, mark, alexander, web design, interaction design, user interface, information architect, information architecture, ajmark, amark"/>
