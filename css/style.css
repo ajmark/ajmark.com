@@ -220,7 +220,7 @@ and (min-width : 1223px) and (max-width : 1599px) {
 		}
 	
 		#portfolio-page {
-  		padding: 8% 0 0 6%;
+  		padding: 8% 0 0 10%;
 			width: 92%;
 		}
 	
@@ -500,7 +500,7 @@ and (min-width : 1900px) {
 
 body {
 	font-family:'Merriweather Sans', sans-serif;
-	background: #F5F5F5;
+	background: #F8F8F8;
 	font-size: 12px;
 	line-height: 1.4em;
 	overflow-y: scroll;
@@ -978,6 +978,15 @@ input[type='submit'] {
 .button:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+
+.textbox-small {
+  width: 20em;
+  height: auto;
+  position: relative;
+  float: left;
+  margin-bottom: 5em;
+  margin-right: 4em;
 }
 
 /******************/

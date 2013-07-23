@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php include('includes/head.php'); ?>
-    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox.css' />
-    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox-buttons.css' />
-    <link rel-'stylesheet' type='text/css' href='css/jquery.fancybox-thumbs.css' />
   
   <body>
     <?php include('includes/header.php'); ?>
