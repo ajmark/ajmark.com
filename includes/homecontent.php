@@ -3,7 +3,7 @@
         <h1 class='intro'>
           Just call me <span>Alex</span>.
         </h1>
-        <h2 class='text-body'>I am a Carnegie Mellon student, studying Information Systems and Human Computer Interaction. I aspire to work in the UX field through the use of my skills as a software developer and my affinity for design and interfaces. Check out some of my work below. </h2>
+        <h2 class='text-body'>I am a <a href='http://cmu.edu' target='_blank'>Carnegie Mellon</a> student, studying Information Systems and Human Computer Interaction. I aspire to work in the UX field through my background as a software developer and my affinity for design and interfaces. Check out some of my work below. </h2>
         <br>
 			</div>
 			<div id='portfolio-main' class='text-body'>
@@ -83,7 +83,7 @@
 				<div class='text-wrap inside-text text-body'>
 					<h1 id="hobbies-text">Interests<span>.</span></h1>
           <h2><span>Ukulele &amp; Guitar</span>: The challenge of teaching yourself a skill from scratch is something I find exciting and addicting, which is why I started getting into these instruments. I bought a Kala tenor ukulele my freshman year in college and the following year I bought myself an Alvarez acoustic guitar and I was once again hooked. Check out <a href='http://www.youtube.com/watch?v=AhR04kmcSXU' target='_blank'>Tommy Emmanuel</a>, <a href='http://www.youtube.com/watch?v=puSkP3uym5k' target='_blank'>Jake Shimabukuro</a> and <a href='http://www.youtube.com/watch?v=naHHHwoMDaU'>Troy Fernandez</a>. They are some of my favorite soloists.</h2>
-				  <h2><span>Sports</span>: I've played basketball my whole life but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, and Derrick Rose. </h2>
+				  <h2><span>Athletics</span>: I was a <a href='http://usfencing.org' target='_blank'>nationally competitive epee fencer</a> for about four years. Fencing is a sport unlike any other, sometimes referred to as "physical chess", and it helped me develop the ability to think outside the box. Fencing allowed me to see many of the different cultures of the United States as I traveled on my own to tournaments nationwide: Des Moine, Iowa, Kansas City, Missouri, Miami, Florida and Grapevine, Texas to list a few. It gave me exposure to several regions of the country that I otherwise never would have experienced. Basketball is my favorite but I love all sports, both watching and playing. My teams/heroes include The Warriors, Giants, 49ers, Novak Djokovic, and Derrick Rose. </h2>
 				  <h2><span>Sneakers</span>: I'm a snearkerhead. My friends in highschool got me into the culture and even though I'm not quite on their level, I can still hold my own. I still catch myself browsing sites like <a href='http://solecollector.com/' target='_blank'>SoleCollector</a> every now and then.</h2>
 			  </div>
 				<br>
@@ -96,7 +96,9 @@
   <br><br>
   <div class="subprofile">
     <h3>Alexander J. Mark</h3>
-    <h3>CMU Class of 2015</h3>
+		<br>
+		<h3>Carnegie Mellon University</h3>
+    <h3>Class of 2015</h3>
 		<br><br>
 		<h3 class='scroll' id='portfolio'>Projects</h3>
 		<h3 class='scroll' id='news'>Accomplishments</h3>

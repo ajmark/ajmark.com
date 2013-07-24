@@ -25,7 +25,7 @@
 			  $.get('first_visit.php', function(data) {
 					if (data == '0') {
   					$('.intro').fadeIn(800, function(){
-    					$('.text-body').delay(500).fadeIn(350, function(){
+    					$('.text-body').delay(1000).fadeIn(350, function(){
       					$('.homeheader').fadeIn(350, function(){
         					$('.homeside').fadeIn(350);
       						});
