@@ -24,23 +24,40 @@
     <script src="js/jquery-ui.js"></script>
     <script type='text/javascript' src="js/main.js"></script>
 
-	<script type="text/javascript" src="skitter/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="skitter/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="skitter/js/jquery.skitter.min.js"></script>
 	  
-	<script type="text/javascript" language="javascript">
-		$(document).ready(function() {
-			$('.box_skitter_large').skitter({
-				theme: 'minimalist',
-				numbers_align: 'center',
-				progressbar: true,
-				auto_play: true,
-				dots: true, 
-				preview: true,
-				interval: 4500, 
-				velocity: 0.8,
+		<script type="text/javascript" language="javascript">
+			$(document).ready(function() {
+				$('.box_skitter_large').skitter({
+					theme: 'minimalist',
+					numbers_align: 'center',
+					progressbar: true,
+					auto_play: true,
+					dots: true, 
+					preview: true,
+					interval: 4500, 
+					velocity: 0.8,
+				});
 			});
-		});
-	</script>
+		</script>
+
+		<!-- Google Analytics -->
+		<script> 
+			$(document).ready(function() {
+			  $.get('first_visit.php', function(data) {
+					if (data == '0') {
+  					$('.intro').fadeIn(1000, function(){
+    					$('.text-body').delay(1200).fadeIn(500, function(){
+      					$('.homeheader').fadeIn(500, function(){
+        					$('.homeside').fadeIn(500);
+      						});
+    						});
+  						});
+					}
+				});
+			});
+		</script>
 
   </head>
   

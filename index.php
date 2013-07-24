@@ -20,20 +20,5 @@
     <script src="js/jquery-1.10.1.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script type='text/javascript' src="js/main.js"></script>
-	<script> 
-		$(document).ready(function() {
-			  $.get('first_visit.php', function(data) {
-					if (data == '0') {
-  					$('.intro').fadeIn(1000, function(){
-    					$('.text-body').delay(1200).fadeIn(500, function(){
-      					$('.homeheader').fadeIn(500, function(){
-        					$('.homeside').fadeIn(500);
-      						});
-    						});
-  						});
-					}
-				});
-		});
-	</script>
   </body>
 </html>

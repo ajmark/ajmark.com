@@ -14,5 +14,21 @@
     <!-- Stylesheets  -->
     <link rel='stylesheet' type='text/css' href='css/reset.css' />
     <link rel='stylesheet' type='text/css' href='css/style.css' />
-
+		
+		<!-- Google Analytics -->
+		<script> 
+			$(document).ready(function() {
+			  $.get('first_visit.php', function(data) {
+					if (data == '0') {
+  					$('.intro').fadeIn(1000, function(){
+    					$('.text-body').delay(1200).fadeIn(500, function(){
+      					$('.homeheader').fadeIn(500, function(){
+        					$('.homeside').fadeIn(500);
+      						});
+    						});
+  						});
+					}
+				});
+			});
+		</script>
   </head>
