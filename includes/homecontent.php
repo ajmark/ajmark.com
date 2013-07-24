@@ -100,11 +100,11 @@
 		<h3>Carnegie Mellon University</h3>
     <h3>Class of 2015</h3>
 		<br><br>
-		<h3 class='scroll' id='portfolio'>Projects</h3>
-		<h3 class='scroll' id='news'>Accomplishments</h3>
-    <h3 class='scroll' id='bio'>About</h3>
-    <h3 class='scroll' id='hobbies'>Interests</h3>
+		<a class='scroll' id='portfolio'>Projects</a><br>
+		<a class='scroll' id='news'>Accomplishments</a><br>
+    <a class='scroll' id='bio'>About</a><br>
+    <a class='scroll' id='hobbies'>Interests</a><br>
 		<br><br>
-		<h3 class='scroll' id='top'>Back to Top</h3>
+		<a class='scroll' id='top'>Back to Top</a>
   </div>
 </div>
