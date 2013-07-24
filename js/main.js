@@ -12,16 +12,16 @@ $(document).ready(function(){
 function hoverActions(){
 	
 	$('body').on('mouseover', '.text', function() {
-        $(this).animate({ color:'#8D172F'},250);
+        $(this).animate({ color:'#8D172F'},300);
     }).on('mouseout', '.text', function() {
-        $(this).animate({ color:'#4C4C4E'},250);
+        $(this).animate({ color:'#4C4C4E'},300);
     });
 
 
 	$('body').on('mouseover', '.scroll', function() {
-        $(this).animate({ color:'#808080'},100);
+        $(this).animate({ color:'#808080'},250);
     }).on('mouseout', '.scroll', function() {
-        $(this).animate({ color:'#8D172F'},100);
+        $(this).animate({ color:'#8D172F'},250);
     });
 	
 	
