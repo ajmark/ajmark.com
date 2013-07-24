@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
   	<meta charset="utf-8"/>
-  	<title>Alexander Mark | ajmark.com</title>
+  	<title>Alex Mark | Personal Website &amp; Portfolio</title>
   	<meta name="author" content="Alex Mark" />
-    <meta name="description" content="Personal website for a current Carnegie Mellon student"/>
-  	<meta name="keywords" content="Alex Mark, Carnegie Mellon, Information Systems, cmu, Alexander Mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, silicon valley, california, pennsylvania, alex, mark, alexander, web design, interaction design, user interface, information architect, information architecture, ajmark, amark"/>
+    <meta name="description" content="Alex Mark's personal website and portfolio. He is a current Carnegie Mellon Student looking to work in the user experience."/>
+		<meta name="keywords" content="ajmark, alex mark, alexander mark, pittsburgh, hillsborough, portfolio, personal website, bay area, carnegie mellon, cmu, user experience, web application, software development, design, interaction, user interface design"/>
     <meta name="copyright" content="Alex Mark 2013" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="favicon.ico">
@@ -41,22 +41,24 @@
 				});
 			});
 		</script>
+<!-- Google Analytics --> 		
+<script type="text/javascript">
 
-		<!-- Google Analytics -->
-		<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42674429-1']);
+  _gaq.push(['_trackPageview']);
 
-  		ga('create', 'UA-42674429-1', 'ajmark.com');
-  		ga('send', 'pageview');
-		</script>
-	
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
+</script>
   </head>
   
   <body>
+		<?php include_once("analyticstracking.php") ?>
     <?php include('includes/header.php'); ?> 
 
     <div id='portfolio-page'>

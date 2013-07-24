@@ -16,5 +16,20 @@
   <body>
     <?php include('includes/header.php'); ?>
 		<?php include('includes/homecontent.php'); ?>
+		<script> 
+			$(document).ready(function() {
+			  $.get('first_visit.php', function(data) {
+					if (data == '0') {
+  					$('.intro').fadeIn(800, function(){
+    					$('.text-body').delay(1000).fadeIn(400, function(){
+      					$('.homeheader').fadeIn(400, function(){
+        					$('.homeside').fadeIn(400);
+      						});
+    						});
+  						});
+					}
+				});
+			});
+		</script>
   </body>
 </html>
