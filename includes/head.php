@@ -15,6 +15,11 @@
     <link rel='stylesheet' type='text/css' href='css/reset.css' />
     <link rel='stylesheet' type='text/css' href='css/style.css' />
 		
+		<!-- Javascript -->
+    <script src="js/jquery-1.10.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type='text/javascript' src="js/main.js"></script>
+		
 		<!-- Google Analytics -->
 		<script> 
 			$(document).ready(function() {
