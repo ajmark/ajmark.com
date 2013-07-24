@@ -26,7 +26,7 @@
 
 		<script type="text/javascript" src="skitter/js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="skitter/js/jquery.skitter.min.js"></script>
-	  
+
 		<script type="text/javascript" language="javascript">
 			$(document).ready(function() {
 				$('.box_skitter_large').skitter({
@@ -43,21 +43,16 @@
 		</script>
 
 		<!-- Google Analytics -->
-		<script> 
-			$(document).ready(function() {
-			  $.get('first_visit.php', function(data) {
-					if (data == '0') {
-  					$('.intro').fadeIn(1000, function(){
-    					$('.text-body').delay(1200).fadeIn(500, function(){
-      					$('.homeheader').fadeIn(500, function(){
-        					$('.homeside').fadeIn(500);
-      						});
-    						});
-  						});
-					}
-				});
-			});
+		<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-42674429-1', 'ajmark.com');
+  		ga('send', 'pageview');
 		</script>
+	
 
   </head>
   
