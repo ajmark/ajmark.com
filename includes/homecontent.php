@@ -105,6 +105,6 @@
     <h3 class='scroll' id='bio'>About</h3>
     <h3 class='scroll' id='hobbies'>Interests</h3>
 		<br><br>
-		<h3 class='scroll' id='top'>Top</h3>
+		<h3 class='scroll' id='top'>Back to Top</h3>
   </div>
 </div>
