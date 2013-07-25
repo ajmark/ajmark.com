@@ -14,8 +14,6 @@
 				<br>
 				<a class='social' href='http://ajmarkportfolio.wordpress.com' target='_blank'>Wordpress</a>
 				<br>
-				<a class='social' href='https://www.facebook.com/amark92' target='_blank'>Facebook</a>
-				<br>
 				<a class='social' href='https://plus.google.com/u/0/107031254155320403996/posts' target='_blank'>Google+</a>
 			</div>
     </div>
