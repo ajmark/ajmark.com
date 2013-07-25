@@ -10,7 +10,7 @@
         <a class="<?php if ($name=='index.php') { echo 'focus'; } else { echo 'text';}?>" href="index.php">Home</a>
       </li>
       <li>
-        <a class="<?php if ($name=='resume.php') { echo 'focus'; } else { echo 'text';}?>" href="resume.php">Resume</a>
+        <a class="<?php if ($name=='resume.php') { echo 'focus'; } else { echo 'text';}?>" href="resume.php">Resum&eacute;</a>
       </li>
       <li>
         <a class="<?php if ($name=='contact.php') { echo 'focus'; } else { echo 'text';}?>" href="contact.php">Contact</a>

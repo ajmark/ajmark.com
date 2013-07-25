@@ -76,7 +76,7 @@
     </div> 
 
     <div id ='side' class='resume'>
-      <a class="button" href="files/resumecolor.pdf" target="_blank">Open PDF Resume</a>
+      <a class="button" href="files/resumecolor.pdf" target="_blank">Open PDF Resum&eacute;</a>
 			<a class='link-small' href='files/resumeb&w.pdf' target='_blank'>Click here for a black and white version...</a>
       <div class='info'>
         <h5>Information Systems Major</h5>
