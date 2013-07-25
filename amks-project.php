@@ -3,7 +3,6 @@
 	<?php include('includes/head.php'); ?>
   
   <body>
-		<?php include_once("analyticstracking.php") ?>
     <?php include('includes/header.php'); ?>
 
     <div id='portfolio-page'>

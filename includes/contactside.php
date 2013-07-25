@@ -1,5 +1,5 @@
     <div id='side'>
-			<img src="images/profile.jpg" class="profile" alt="profile-pic">
+			<div class="profile" alt="profile-pic"></div>
 			<br><br>
 			<div class="subprofile">
         <h5>ajmark@andrew.cmu.edu</h5>

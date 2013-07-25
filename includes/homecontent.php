@@ -92,7 +92,7 @@
 
 
 <div id='side' class='homeside'>
-  <img src="images/profile.jpg" class="profile" alt="profile-pic">
+  <div class="profile" alt="profile-pic"></div>
   <br><br>
   <div class="subprofile">
     <h3>Alexander J. Mark</h3>
@@ -104,7 +104,7 @@
 		<a class='scroll' id='news'>Accomplishments</a><br>
     <a class='scroll' id='bio'>About</a><br>
     <a class='scroll' id='hobbies'>Interests</a><br>
-		<br><br>
-		<a class='scroll' id='top'>Back to Top</a>
+		<br>
+		<a class='scroll' id='top' style='font-size: 1em;'>Back to Top</a>
   </div>
 </div>
