@@ -76,12 +76,12 @@
       <img src="images/typeSpecimen1.png" style="width: 20em;">
     </a>
 
-    <a class='mainimage-box fancybox' href='typeSpecimen2.png'>
+    <a class='mainimage-box fancybox' href='images/typeSpecimen2.png'>
       <h2>Second Iteration</h2>
       <img src="images/typeSpecimen2.png" style="width: 25em;" >
     </a>
 
-    <a class='mainimage-box fancybox' href='typeSpecimen4.png'>
+    <a class='mainimage-box fancybox' href='images/typeSpecimen4.png'>
       <h2>Third Iteration</h2>
       <img src="images/typeSpecimen4.png" style="width: 25em;">
     </a>
