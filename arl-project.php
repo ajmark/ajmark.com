@@ -67,7 +67,7 @@
       <a class="mainimage-box fancybox" href='images/arlfinal1.jpg' >
         <h2>Final Homepage</h2>
         <img src="images/arlfinal1.jpg">
-      </a>a>
+      </a>
 
       <a class="mainimage-box fancybox" href='images/arlfinal2.jpg'>
         <h2>Final Adoption Page</h2>
