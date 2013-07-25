@@ -1,9 +1,9 @@
   <head>
   	<meta charset="utf-8"/>
-  	<title>Alexander Mark | ajmark.com</title>
+  	<title>Alex Mark | Personal Website &amp; Portfolio</title>
   	<meta name="author" content="Alex Mark" />
-    <meta name="description" content="Personal website for a current Carnegie Mellon student"/>
-  	<meta name="keywords" content="Alex Mark, Carnegie Mellon, Information Systems, cmu, Alexander Mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, silicon valley, california, pennsylvania, alex, mark, alexander, web design, interaction design, user interface, information architect, information architecture, ajmark, amark"/>
+    <meta name="description" content="Alex Mark's personal website and porftfolio. He is a Carnegie Mellon student studying Information Systems and Human Computer Interaction."/>
+  	<meta name="keywords" content="alex mark, ajmark, carnegie mellon, information systems, cmu, alexander mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, web design, interaction design, user interface, information architect"/>
     <meta name="copyright" content="Alex Mark 2013" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" >
