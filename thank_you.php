@@ -12,7 +12,7 @@
 				<br>
 				<h3>In the meantime check out some cool links!</h3>
 				<br>
-				<h3><a href='index.html'>Click here to go back to the homepage</a></h3>
+				<h3><a href='index.php'>Click here to go back to the homepage</a></h3>
       </div>
     </div>
 
