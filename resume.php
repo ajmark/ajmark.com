@@ -34,7 +34,7 @@
           <div class='rbox'</div>
             <h3>Summer 2010</h3>
             <h4>Stanford's Center for Brain Science Research</h4>
-            <h5>Software Development Assistant | Palo Alto, CA</h5>
+            <h5>Software Development Intern | Palo Alto, CA</h5>
             <p>Debugged brain imaging software user interface in Java programming language<br>
               Increased lab efficiency through improvements of software usability</p>
           </div>
