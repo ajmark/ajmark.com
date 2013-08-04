@@ -3,8 +3,6 @@
 			<br><br>
 			<div class="subprofile">
         <h5>ajmark@andrew.cmu.edu</h5>
-        <br>
-        <h3>Talk to me about sports, music, technology or just say hi!</h3>
 				<br>
 				<h3>You can find me in: <span>Pittsburgh, PA</span></h3>
 				<br>
