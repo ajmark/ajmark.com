@@ -793,8 +793,9 @@ br {
 #side .profile {
 	position: relative;
 	background-image: url(../images/profile.jpg); 
-	background-position: bottom;
-	background-size: 130%; 
+	background-position-x: 35%;
+	background-position-y: 30%;													
+	background-size: 165%; 
 	left: 7em;
 	width: 12em;
 	height: 12em;
