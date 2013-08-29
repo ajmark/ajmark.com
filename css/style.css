@@ -603,6 +603,14 @@ br {
   line-height: 3em;
 }
 
+.skills {
+	float: left;
+	margin-right: 3em;
+}
+
+li {
+	font-weight: lighter; 
+}
 /******************/
 /* Header */
 /******************/

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	<meta charset="utf-8"/>
-  	<title>Alex Mark | Personal Website &amp; Portfolio</title>
-  	<meta name="author" content="Alex Mark" />
+    <meta charset="utf-8"/>
+    <title>Alex Mark | Personal Website &amp; Portfolio</title>
+    <meta name="author" content="Alex Mark" />
     <meta name="description" content="Alex Mark's personal website and porftfolio. He is a Carnegie Mellon student studying Information Systems and Human Computer Interaction."/>
-  	<meta name="keywords" content="alex mark, ajmark, carnegie mellon, information systems, cmu, alexander mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, web design, interaction design, user interface, information architect"/>
+    <meta name="keywords" content="alex mark, ajmark, carnegie mellon, information systems, cmu, alexander mark, website, design, pittsburgh, hillsborough, burlingame, bay area, san francisco, web design, interaction design, user interface, information architect"/>
     <meta name="copyright" content="Alex Mark 2013" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="favicon.ico" >
@@ -16,22 +16,22 @@
     <!-- Stylesheets  -->
     <link rel='stylesheet' type='text/css' href='css/reset.css' />
     <link rel='stylesheet' type='text/css' href='css/style.css' />
-		<link rel='stylesheet' type='text/css' href='fancybox/jquery.fancybox.css' />
-		
-		<!-- Javascript -->
+    <link rel='stylesheet' type='text/css' href='fancybox/jquery.fancybox.css' />
+    
+    <!-- Javascript -->
     <script src="js/jquery-1.10.1.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script type='text/javascript' src="js/main.js"></script>
-		<script type='text/javascript' src="fancybox/jquery.fancybox.js"></script>
-		
-		<!-- Fancybox -->
+    <script type='text/javascript' src="fancybox/jquery.fancybox.js"></script>
+    
+    <!-- Fancybox -->
 <script type="text/javascript">
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	});
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
 </script>
-		
-		<!-- Google Analytics -->
+    
+    <!-- Google Analytics -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -54,9 +54,33 @@
     <div id='portfolio-page'>
       <h1>Ruby on Rails Web App | <span>The A &#38; M Karate School </span></h1>
       <br>
-			<a class='large-link' href='http://amks.herokuapp.com' target='_blank'>The A &amp; M Karate School live application</a> 
-			<p>&lt;-- Follow the link!</p>
-			<br>
+      <a class='large-link' href='http://amks.herokuapp.com' target='_blank'>The A &amp; M Karate School live application</a> 
+      <p>&lt;-- Follow the link!</p>
+      <br>
+      <div class='text-box'>
+         <h2>Admin Info:</h2>
+         <p>Email: <span>admin@amks.com</span></p>
+         <p>Password: <span>password</span></p>
+      </div>
+      <div class='text-box'>
+         <h2>Member Info</h2>
+         <p>Email: <span>member@amks.com</span></p>
+         <p>Password: <span>password</span></p>
+      </div>
+      <div class='text-box'>
+        <h2>Skills Used</h2>
+        <ul class='skills'>
+          <li>Ruby on Rails</li>
+          <li>CSS</li>
+          <li>SQLite3</li>
+        </ul>
+        <ul class='skills'>
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>Adobe Photoshop</li>
+        </ul>
+
+      </div>
       <div class="textbox-wide">
         <h2>About the Project</h2>
         <p> This was a semester long project assigned in my Web Application Design and Development class. Our task was to use Ruby on Rails to create a dynamic web application for a mock karate tournament system. Through this project and this class, I learned how to:<br>1. Model data and translate data models into working databases<br>2. Be familiar with the Model-View-Controller pattern in software architecture<br>3. Understand the importance of test driven development<br>4. Use source code control to manage project development through Git<br>5. Apply principles of user-centered design to the development of software<br>6. Apply all of these skills to build a web-based application 

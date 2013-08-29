@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('includes/head.php'); ?>
+  <?php include('includes/head.php'); ?>
   
   <body>
-		<?php include('includes/header.php'); ?>
+    <?php include('includes/header.php'); ?>
 
     <div id ='main'>
       <div class='text-wrap larger'>
@@ -14,8 +14,8 @@
             <h4>The Bank of New York Mellon</h4>
             <h5>Web Application Development Intern | Pittsburgh, PA</h5>
             <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
-							Wrote CRUD functionality for application through server side Java programming
-						</p>
+              Wrote CRUD functionality for application through server side Java programming
+            </p>
           </div>
           <div class='rbox'</div>
             <h3>Summer 2012</h3>
@@ -29,7 +29,7 @@
             <h4>Westinghouse - Marine Division/Northrop Grumman</h4>
             <h5>Research &#38; Technical Assistant | Sunnyvale, CA</h5>
             <p>Classified turbine blueprints and ship documents for asbestos-related lawsuits <br>
-							Implemented document searching software on office computers</p>
+              Implemented document searching software on office computers</p>
           </div>
           <div class='rbox'</div>
             <h3>Summer 2010</h3>
@@ -77,28 +77,26 @@
 
     <div id ='side' class='resume'>
       <a class="button" href="files/resumecolor.pdf" target="_blank">Open PDF Resum&eacute;</a>
-			<a class='link-small' href='files/resumeb&w.pdf' target='_blank'>Click here for a black and white version...</a>
+      <a class='link-small' href='files/resumeb&w.pdf' target='_blank'>Click here for a black and white version...</a>
       <div class='info'>
         <h5>Information Systems Major</h5>
         <h5>Human Computer Interaction Minor</h5>
         <br>
-		<h3>Skills</h3>
+    <h3>Skills</h3>
         <ul>
           <li>CSS/HTML</li>
-					<li>Dojo</li>
+          <li>Dojo</li>
           <li>Git</li>
           <li>Java</li>
-					<li>JavaScript</li>
+          <li>JavaScript</li>
           <li>JQuery</li>
-					<li>PHP</li>
+          <li>PHP</li>
           <li>Python</li>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
-					<li>MongoDB</li>
+          <li>MongoDB</li>
           <li>mySQL</li>
-        </ul>
-        <br>
-        <ul>
+          <br>
           <li>Adobe Illustrator</li>
           <li>Adobe InDesign</li>
           <li>Adobe Photoshop</li>
