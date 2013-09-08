@@ -12,6 +12,14 @@
           <div class='rbox'> 
             <h3>Current</h3>
             <h4>The Bank of New York Mellon</h4>
+            <h5>User Experience Co-op| Pittsburgh, PA</h5>
+            <p>Conducted in-house user testing on employees for BNY Mellon applications<br>
+              Restructured Sharepoint site to improve information design
+            </p>
+          </div>
+          <div class='rbox'> 
+            <h3>Summer 2013</h3>
+            <h4>The Bank of New York Mellon</h4>
             <h5>Web Application Development Intern | Pittsburgh, PA</h5>
             <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
               Wrote CRUD functionality for application through server side Java programming
