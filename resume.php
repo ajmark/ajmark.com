@@ -11,38 +11,38 @@
         <div id = 'wrapper'>
           <div class='rbox'> 
             <h3>Current</h3>
-            <h4>The Bank of New York Mellon</h4>
-            <h5>User Experience Co-op| Pittsburgh, PA</h5>
+            <h4>User Experience Co-op</h4>
+            <h5>BNY Mellon| Pittsburgh, PA</h5>
             <p>Conducted in-house user testing on employees for BNY Mellon applications<br>
               Restructured Sharepoint site to improve information design
             </p>
           </div>
           <div class='rbox'> 
             <h3>Summer 2013</h3>
-            <h4>The Bank of New York Mellon</h4>
-            <h5>Web Application Development Intern | Pittsburgh, PA</h5>
+            <h4>Web Application Development Intern</h4>
+            <h5>BNY Mellon | Pittsburgh, PA</h5>
             <p>Developed portal components for the upgraded version of BNY's Web STP software<br>
               Wrote CRUD functionality for application through server side Java programming
             </p>
           </div>
           <div class='rbox'</div>
             <h3>Summer 2012</h3>
-            <h4>Harvard Business School Community Partners</h4>
-            <h5>Technical Intern | Hillsborough, CA</h5>
+            <h4>Technical Intern</h4>
+            <h5>Harvard Business School Community Partners | Hillsborough, CA</h5>
             <p>Redesigned database system for tracking information of non-profit startups<br>
               Consolidated database to a single cloud computing system on Salesforce.com</p>
           </div>
           <div class='rbox'</div>
             <h3>Summer 2012</h3>
-            <h4>Westinghouse - Marine Division/Northrop Grumman</h4>
-            <h5>Research &#38; Technical Assistant | Sunnyvale, CA</h5>
+            <h4>Research &#38; Technical Assistant </h4>
+            <h5>Westinghouse - Marine Division/Northrop Grumman | Sunnyvale, CA</h5>
             <p>Classified turbine blueprints and ship documents for asbestos-related lawsuits <br>
               Implemented document searching software on office computers</p>
           </div>
           <div class='rbox'</div>
             <h3>Summer 2010</h3>
-            <h4>Stanford's Center for Brain Science Research</h4>
-            <h5>Software Development Intern | Palo Alto, CA</h5>
+            <h4>Software Development Intern</h4>
+            <h5>Stanford's Center for Brain Science Research | Palo Alto, CA</h5>
             <p>Debugged brain imaging software user interface in Java programming language<br>
               Increased lab efficiency through improvements of software usability</p>
           </div>
