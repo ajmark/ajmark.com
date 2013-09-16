@@ -100,10 +100,10 @@
           <li>JQuery</li>
           <li>PHP</li>
           <li>Python</li>
+          <li>MongoDB</li>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
-          <li>MongoDB</li>
-          <li>mySQL</li>
+          <li>SQL</li>
           <br>
           <li>Adobe Illustrator</li>
           <li>Adobe InDesign</li>
