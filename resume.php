@@ -91,10 +91,12 @@
         <h5>Human Computer Interaction Minor</h5>
         <br>
     <h3>Skills</h3>
-        <ul>
-          <li>CSS/HTML</li>
+        <ul class="skills">
+          <li>Ajax</li>
+          <li>CSS</li>
           <li>Dojo</li>
           <li>Git</li>
+          <li>Html</li>
           <li>Java</li>
           <li>JavaScript</li>
           <li>JQuery</li>
@@ -104,10 +106,14 @@
           <li>Ruby</li>
           <li>Ruby on Rails</li>
           <li>SQL</li>
-          <br>
+        </ul>
+        <ul>
           <li>Adobe Illustrator</li>
           <li>Adobe InDesign</li>
           <li>Adobe Photoshop</li>
+          <li>Burp Suite</li>
+          <li>Microsoft Sharepoint</li>
+          <li>Salesforce</li>
         </ul>
       </div>
     </div> 
